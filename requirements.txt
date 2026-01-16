@@ -20,3 +20,7 @@ openai
 
 # Testing
 pytest
+
+# Translation
+googletrans==4.0.0rc1  # Google Translate (무료)
+# deepl  # DeepL API (선택사항, 고품질)
