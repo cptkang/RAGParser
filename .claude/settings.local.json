@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python.exe -m pip install:*)",
+      "Bash(export PATH=\"/g/RAGParser/.venv/poppler/poppler-24.08.0/Library/bin:$PATH\":*)",
+      "Bash(python -c \"import os; from pathlib import Path; exec\\(open\\(''src/preprocessing/pipeline.py''\\).read\\(\\).split\\(''from ..parser''\\)[0]\\); print\\(''Poppler PATH test:'', ''poppler-24.08.0'' in os.environ[''PATH'']\\)\")",
+      "Bash(.venv/Scripts/python.exe -m pytest tests/test_chroma_rag_complete.py -v --tb=short)",
+      "Bash(.venv/Scripts/python.exe -m pytest tests/test_chroma_rag_complete.py -v --tb=line)",
+      "Bash(.venv/Scripts/python.exe:*)"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+# Core RAG & Vector Store
+chromadb>=0.4.0
+langchain>=0.1.0
+langchain-text-splitters
+sentence-transformers>=2.2.2
+torch>=2.0.0
+numpy
+
+# PDF Parsing & Processing
+pymupdf
+pdfplumber
+unstructured[pdf]
+beautifulsoup4
+
+# LLM Services & Utilities
+requests
+tqdm
+# llama-cpp-python
+openai
+
+# Testing
+pytest

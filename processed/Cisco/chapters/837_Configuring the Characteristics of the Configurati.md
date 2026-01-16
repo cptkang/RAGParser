@@ -1,0 +1,8 @@
+---
+title: "Configuring the Characteristics of the Configuration Archive"
+page_start: 176
+page_end: 176
+level: 2
+---
+
+## Configuring the Characteristics of the Configuration Archive

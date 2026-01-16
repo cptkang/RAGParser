@@ -1,0 +1,3588 @@
+[
+  {
+    "type": "paragraph",
+    "content": "이 이 111 01560.",
+    "page": 1,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 1,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "First Published: 2025-08-13",
+    "page": 1,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Americas Headquarters",
+    "page": 1,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Systems, Inc. 170 West Tasman Drive San Jose, CA 95134-1706 USA http://www.cisco.com Tel: 408 526-4000 800 553-NETS (6387) Fax: 408 527-0883",
+    "page": 1,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "THE SPECIFICATIONS AND INFORMATION REGARDING THE PRODUCTS REFERENCED IN THIS DOCUMENTATION ARE SUBJECT TO CHANGE WITHOUT NOTICE. EXCEPT AS MAY OTHERWISE BE AGREED BY CISCO IN WRITING, ALL STATEMENTS, INFORMATION, AND RECOMMENDATIONS IN THIS DOCUMENTATION ARE PRESENTED WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco End User License Agreement and any supplemental license terms govern your use of any Cisco software, including this product documentation, and are located at: https://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html. Cisco product warranty information is available at https://www.cisco.com/c/en/us/products/ warranty-listing.html. US Federal Communications Commission Notices are found here https://www.cisco.com/c/en/us/products/us-fcc-notice.html.",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "IN NO EVENT SHALL CISCO OR ITS SUPPLIERS BE LIABLE FOR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, OR INCIDENTAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOST PROFITS OR LOSS OR DAMAGE TO DATA ARISING OUT OF THE USE OR INABILITY TO USE THIS MANUAL, EVEN IF CISCO OR ITS SUPPLIERS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Any products and features described herein as in development or available at a future date remain in varying stages of development and will be offered on a when-and if-available basis. Any such product or feature roadmaps are subject to change at the sole discretion of Cisco and Cisco will have no liability for delay in the delivery or failure to deliver any products or feature roadmap items that may be set forth in this document.",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Any Internet Protocol (IP) addresses and phone numbers used in this document are not intended to be actual addresses and phone numbers. Any examples, command display output, network topology diagrams, and other figures included in the document are shown for illustrative purposes only. Any use of actual IP addresses or phone numbers in illustrative content is unintentional and coincidental.",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or languag",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or its affiliates in the U.S. and other countries. To view a list of Cisco trademarks, go to this URL: https://www.cisco.com/c/en/us/about/legal/trademarks.html. Third-party trademarks mentioned are the property of their respective owners. The use of the word partner does not imply a partnership relationship between Cisco and any other company. (1721R)",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "© 2025 Cisco Systems, Inc. All rights reserved.",
+    "page": 2,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C O N T E N T S",
+    "page": 3,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 대 타 4 안 |  |  |  |\n|---|---|---|---|\n|  |  | 4016006 3001 |  |  |\n|  |  | 10004104610[(0007600008 3001 |  |  |\n|  |  | 100000060680070 107 (21600 페 6%46 9000 5612166 | 5\\1601169 | - 300 |\n|  |  | 10004146101[8000『6606806 30 |  |  |\n|  |  | (2070000401068060108, 56001068, 800 8001110081 ㅁ | 10107000800 0 300 |  |\n|  |  | 248 56870 1001 0 |  |  |\n|  |  | 10004100601[80080 16606806 06 |  |  |\n| 매 30168 | 1 | 130860 10100043000 1 |  |  |\n|  | 800 (]180860 10100708000 1 |  |  |\n| 매 2『16 | 2 |  |  |",
+    "page": 3,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 3,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 3,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 3,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "iii",
+    "page": 3,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| | 060066065",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 4,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C H A P T E R 3",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Embedded Event Manager 5 Manageability 5 Simple Network Management Protocol 5 Configuration Verification and Rollback 5 Role-Based Access Control 6 Cisco NX-OS Device Configuration Methods 6 Programmability 6 Python API 6 Tcl 6 Cisco NX-API 6 Bash Shell 7 Broadcom Shell 7 Traffic Routing, Forwarding, and Management 7 Ethernet Switching 7 IP Routing 8 IP Services 8 IP Multicast 8 Quality of Service 9 Network Security Features 9 Supported Standards 10 Using the Cisco NX-OS Setup Utility 17 About t",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Setting Up Your Cisco NX-OS Device",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "19",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Additional References for the Setup Utility 24",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Related Documents for the Setup Utility 24",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "C H A P T E R 4 Using PowerOn Auto Provisioning 25",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "About PowerOn Auto Provisioning 25",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Network Requirements for POAP 25",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Secure Download of POAP Script",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "26",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Network Requirements for Secure POAP 29",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "Deployment Scenarios 29",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "iv",
+    "page": 4,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "SUDI Supported Device as File Server 29 Non-SUDI Supported Device as a File Server 30 Benchmark Configured Device 31 Secure POAP on a Device Shipped with Old Image 31 Troubleshooting Secure POAP 32 Disabling POAP 32 POAP Configuration Script 33 POAP Configuration Script 33 Using the POAP Script and POAP Script Options 34 Setting up the DHCP Server without DNS for POAP 37 Downloading and Using User Data, Agents, and Scripts as part of POAP 37 POAP Process 38 Power-Up Phase 39 USB Discovery Phase ",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "POAP Personality Sample Script 53",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "C H A P T E R 5 Using Network Plug and Play 55",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "About Network Plug and Play 55",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Guidelines and Limitations for Network Plug and Play 62",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "060066065 | |",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 5,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "v",
+    "page": 5,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| | 060066065",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 6,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C H A P T E R 6",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "vi",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "Troubleshooting Examples for Network Plug and Play 63",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Understanding the Command-Line Interface 69 About the CLI Prompt 69 Command Modes 70 EXEC Command Mode 70 Global Configuration Command Mode 70 Interface Configuration Command Mode 71 Subinterface Configuration Command Mode 72 Saving and Restoring a Command Mode 72 Exiting a Configuration Command Mode 73 Command Mode Summary 73 Special Characters 74 Keystroke Shortcuts 75 Abbreviating Commands 78 Completing a Partial Command Name 78 Identifying Your Location in the Command Hierarchy 79 Using the ",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Special Characters",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Multiple-Character Patterns",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 6,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C H A P T E R 7",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Anchoring 89 Searching and Filtering show Command Output 89 Filtering and Searching Keywords 90 diff Utility 91 grep and egrep Utilities 92 less Utility 93 Mini AWK Utility 93 sed Utility 93 sort Utility 93 Searching and Filtering from the --More-- Prompt 94 Using the Command History 95 Recalling a Command 95 Controlling CLI History Recall 95 Configuring the CLI Edit Mode 96 Displaying the Command History 96 Enabling or Disabling the CLI Confirmation Prompts 97 Setting CLI Display Colors 97 Send",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Virtual Terminals",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "-",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "106",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Default Settings for File System Parameters",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "106",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring the Console Port",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "060066065 | |",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 7,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "vii",
+    "page": 7,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| | 060066065",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 8,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring Virtual Terminals",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "108",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring the Inactive Session Timeout",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "108",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring the Session Limit",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "109",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Clearing Terminal Sessions",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "110",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Displaying Terminal and Session Information 110",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "C H A P T E R 8 Basic Device Management 113",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "About Basic Device Management",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "113",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Device Hostname",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "113",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Message-of-the-Day Banner",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "113",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Device Clock 113",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Clock Manager 114",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Time Zone and Summer Time (Daylight Saving Time)",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "User Sessions",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "-",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "114",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Default Settings for Basic Device Parameters",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "114",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Changing the Device Hostname",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "114",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring the MOTD Banner",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "115",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring the Time Zone",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "117",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring Summer Time (Daylight Saving Time)",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "117",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Manually Setting the Device Clock 119",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Setting the Clock Manager",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "119",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Managing Users",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "120",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Displaying Information about the User Sessions",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "120",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Sending a Message to Users",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "121",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Verifying the Device Configuration 121",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "C H A P T E R 9 Using the Device File Systems, Directories, and Files 123",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "About the Device File Systems, Directories, and Files",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "123",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "File Systems 123",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Directories 124",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Files 124",
+    "page": 8,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Guidelines and Limitations 125",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Default Settings for File System Parameters",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "125",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring the FTP, HTTP, or TFTP Source Interface",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "viii",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "114",
+    "page": 8,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Working with Directories 126 Identifying the Current Directory 126 Changing the Current Directory 126 Creating a Directory 127 Displaying Directory Contents 127 Deleting a Directory 128 Accessing Directories on the Standby Supervisor Module Working with Files 129 Moving Files 129 Copying Files 130 Copying Files Using HTTP or HTTPS 131 Deleting Files 131 Displaying File Contents 132 Displaying File Checksums 132 Compressing and Uncompressing Files 133 Displaying the Last Lines in a File 133 Redir",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "129",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Examples of Using the File System 142",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Accessing Directories on Standby Supervisor Modules",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Moving Files 142",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Copying Files 143",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Deleting a Directory 143",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Displaying File Contents 144",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Displaying File Checksums",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "144",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "060066065 | |",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 9,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "ix",
+    "page": 9,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| | 060066065",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 10,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C H A P T E R 1 0",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C H A P T E R 1 1",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "x",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Compressing and Uncompressing Files 145 Redirecting show Command Output 145 Finding Files 146",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Working with Configuration Files",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "147",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "About Configuration Files 147 Types of Configuration Files 147 Guidelines and Limitations for Configuration Files 148 Managing Configuration Files 148 Saving the Running Configuration to the Startup Configuration 148 Copying a Configuration File to a Remote Server 148 Downloading the Running Configuration From a Remote Server 149 Downloading the Startup Configuration From a Remote Server 150 Copying Configuration Files to an External Flash Memory Device 152 Copying the Running Configuration from",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 10,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Guidelines and Limitations",
+    "page": 11,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Configuring Nexus Switch to Intersight 168 Verifying NXDC configuration and status 170 Claiming Nexus Switches in Intersight 171",
+    "page": 11,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 11,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 11,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 11,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "060066065 | |",
+    "page": 11,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 11,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "xi",
+    "page": 11,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| | 060066065",
+    "page": 12,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Contents",
+    "page": 12,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "xii",
+    "page": 12,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 12,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 12,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 12,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Preface",
+    "page": 13,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This preface includes the following sections:",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Audience, on page xiii",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Document Conventions, on page xiii",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Related Documentation for Cisco Nexus 9000 Series Switches, on page xiv",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Documentation Feedback, on page xiv",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Communications, services, and additional information, on page xiv",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Audience",
+    "page": 13,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This publication is for network administrators who install, configure, and maintain Cisco Nexus switches.",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Document Conventions",
+    "page": 13,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Command descriptions use the following conventions:",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 10010 | 2010 (6 100168666 0416 6000018008 800 65\\0108 04186 704 60167 11678117 89 91101\\0. |\n|---|---|\n| 77070 | 11311 (6 1001068166 818404606[6 1017 \\1110611 704 54721 06 81468. |\n| |] | 옥 64816 608 아 665 60 이 056 80 02000081 이 600601 (6657\\070 07 81 용 404600. |\n| | | 옥 64816 608 이 6665 60 이 09108 65\\0708 07 8184016066 0186 8206 560878(60 605 87600106816871040108[6 830 02000081 00166. |\n| {8 | 까 | 278068 60 이 0610 음 65\\0109 07 818410046066 0418 8706 5608186(60 67 8 7600081 1687 10010866 8 700",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "xiii",
+    "page": 13,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Preface",
+    "page": 14,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Related Documentation for Cisco Nexus 9000 Series Switches",
+    "page": 14,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 78 ㅁ 12616@ | 1001068666 878281616 107 1\\111011 704 5420015 81468, 10 0017016※% \\11606 1181108 68000 66 4560. |\n|---|---|\n| 9011 음 | 스 200040160 66 01 이 18080 이 669. 120 ㅁ 001 466 040180070 048 다 6 8704200 1016 9011 을 07 0416 660040 응 10014068 0416 04018007 0481469. |",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Examples use the following conventions:",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 50 ㄴ 667 ㅁ ,02 ㅁ ㄴㄴ |  | 그 60001081 56661005 800 1010100081107 016 5\\4011 0160185 876 10 50000 101 |\n|---|---|---|\n| 15010*2206 50 ㄴ 6 ㅎ 66 ㅁ | .ｌ.0 ㄴ | 10[000080080 01866 704 00496 60167 16 10 60101306 507600 10201. |\n| 7707/70 50766007. 70777 |  | 스 7841006066 107 \\11014 704 94701 81466 816 10 118116 507660 10701. |\n| <> |  | 떼 001201001 을 아 180006(668, 54011 89 2896\\0109, 816 10 8016 018016618. |\n| [] |  | 1061341[766000969 10 5761610 0001007066 876 10 504816 6078016665. |\n| 트고 |  | 스 ㅁ 68 ",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Terminal sessions and information the switch displays are in screen font.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "An exclamation point (!) or a pound sign (#) at the beginning of a line",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Related Documentation for Cisco Nexus 9000 Series Switches",
+    "page": 14,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The entire Cisco Nexus 9000 Series switch documentation set is available at the following URL:",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "https://www.cisco.com/en/US/products/ps13386/tsd_products_support_series_home.html",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Documentation Feedback",
+    "page": 14,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "To provide technical feedback on this document, or to report an error or omission, please send your comments to nexus9k-docfeedback@cisco.com. We appreciate your feedback.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Communications, services, and additional information",
+    "page": 14,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• To receive timely, relevant information from Cisco, sign up at Cisco Profile Manager.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• To get the business impact you’re looking for with the technologies that matter, visit Cisco Services.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• To submit a service request, visit Cisco Support.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• To discover and browse secure, validated enterprise-class apps, products, solutions, and services, visit Cisco DevNet.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• To obtain general networking, training, and certification titles, visit Cisco Press.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• To find warranty information for a specific product or product family, access Cisco Warranty Finder.",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "xiv",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "ㅣ",
+    "page": 14,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Preface",
+    "page": 15,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Cisco Bug Search Tool",
+    "page": 15,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Cisco Bug Search Tool",
+    "page": 15,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "CiscoBug SearchTool (BST) is a gatewayto the Ciscobug-trackingsystem,which maintainsa comprehensive list of defects and vulnerabilities in Cisco products and software. The BST provides you with detailed defect information about your products and software.",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Documentation feedback",
+    "page": 15,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "To provide feedback about Cisco technical documentation, use the feedback form available in the right pane of every online document.",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "xv",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 15,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 16,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Documentation feedback",
+    "page": 16,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 16,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 16,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 16,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "xvi",
+    "page": 16,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Preface",
+    "page": 16,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "ㅣ",
+    "page": 16,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "1",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C H A P T E R 1",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "New and Changed Information",
+    "page": 17,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• New and Changed Information, on page 1",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "New and Changed Information",
+    "page": 17,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Table1:NewandChangedFeatures",
+    "page": 17,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 『680116 | 066000000 | 0180960 10 『1016056 | \\1616 00000160160 |\n|---|---|---|---|\n| 200 900000 ㅁ 020 지 9336()-91 | 스 0060 940000107204 ㅅ 0 00 (1900 페 9336(:-6019\\11001 | | 10.6(1)『 | (3410611068 800 1.0201660008 10720 ㅅ 0. 00 72886 44 |",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "1",
+    "page": 17,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 18,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "New and Changed Information",
+    "page": 18,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 18,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 18,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 18,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "2",
+    "page": 18,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "New and Changed Information",
+    "page": 18,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "ㅣ",
+    "page": 18,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "2",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "C H A P T E R 2",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Overview",
+    "page": 19,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This chapter contains these sections:",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Licensing Requirements, on page 3",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Supported Platforms, on page 3",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Software Image, on page 3",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Software Compatibility, on page 4",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Serviceability, on page 4",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Manageability, on page 5",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Programmability, on page 6",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Traffic Routing, Forwarding, and Management, on page 7",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Quality of Service, on page 9",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Network Security Features, on page 9",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Supported Standards, on page 10",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Licensing Requirements",
+    "page": 19,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "For a complete explanation of Cisco NX-OS licensing recommendations and how to obtain and apply licenses, see the Cisco NX-OS Licensing Guide and the Cisco NX-OS Licensing Options Guide .",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Supported Platforms",
+    "page": 19,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Use the Nexus Switch Platform Support Matrix to know from which Cisco NX-OS releases various Cisco Nexus 9000 and 3000 switches support a selected feature.",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Software Image",
+    "page": 19,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software consists of one NXOS software image.",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "3",
+    "page": 19,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Software Compatibility",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Software Compatibility",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software interoperates with Cisco products that run any variant of the Cisco IOS software. The Cisco NX-OS software also interoperates with any networking operating system that conforms to the IEEE and RFC compliance standards.",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Spine/Leaf Topology",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco Nexus 9000 Series switches support a two-tier spine/leaf topology.",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Figure1:Spine/LeafTopology",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This figure shows an example of a spine/leaf topology with four leaf switches (Cisco Nexus 9396 or 93128) connecting into two spine switches (Cisco Nexus 9508) and two 40G Ethernet uplinks from each leaf to each",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "띠 6015 9508 시 645 9508 ㄴ 6 하 1 Ｌ6 라 그 61 3 Ｌ ㄴ 6214 30448 1×4066",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "spine.",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Modular Software Design",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software supports distributed multithreaded processing on symmetric multiprocessors (SMPs), multi-core CPUs, and distributed data module processors. The Cisco NX-OS software offloads computationally intensive tasks, such as hardware table programming, to dedicated processors distributed across the data modules. The modular processes are created on demand, each in a separate protected memory space. Processes are started and system resources are allocated only when you enable a fea",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Serviceability",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software has serviceability functions that allow the device to respond to network trends and events. These features help you with network planning and improving response times.",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Switched Port Analyzer",
+    "page": 20,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Switched Port Analyzer (SPAN) feature allows you to analyze all traffic between ports (called the SPAN source ports) by nonintrusively directing the SPAN session traffic to a SPAN destination port that has an external analyzer attached to it. For more information about SPAN, see the Cisco Nexus 9000 Series NX-OS System Management Configuration Guide.",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "4",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 20,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Ethanalyzer",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Ethanalyzer",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Ethanalyzer is a Cisco NX-OS protocol analyzer tool based on the Wireshark (formerly Ethereal) open source code. Ethanalyzer is a command-line version of Wireshark for capturing and decoding packets. You can use Ethanalyzer to troubleshoot your network and analyze the control-plane traffic. For more information about Ethanalyzer, see the Cisco Nexus 9000 Series NX-OS Troubleshooting Guide.",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Smart Call Home",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Call Home feature continuously monitors hardware and software components to provide e-mail-based notificationofcriticalsystemevents.Aversatilerangeofmessageformatsisavailableforoptimalcompatibility with standard e-mail and XML-based automated parsing applications. It offers alert grouping capabilities and customizable destination profiles. You can use this feature, for example, to send an e-mail message to a network operations center (NOC) and employ Cisco AutoNotify services to directly gen",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Online Diagnostics",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Ciscogenericonlinediagnostics(GOLD)verifythathardwareandinternaldatapathsareoperatingasdesigned. Boot-timediagnostics, continuous monitoring, and on-demand and scheduled tests are part of the Cisco GOLD feature set. GOLD allows rapid fault isolation and continuous system monitoring. For information about configuring GOLD, see the Cisco Nexus 9000 Series NX-OS System Management Configuration Guide.",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Embedded Event Manager",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "CiscoEmbeddedEventManager(EEM)isadeviceandsystemmanagementfeaturethathelpsyoutocustomize behavior based on network events as they happen. For information about configuring EEM, see the Cisco Nexus 9000 Series NX-OS System Management Configuration Guide.",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Manageability",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This section describes the manageability features for the Cisco Nexus 9000 Series switches.",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Simple Network Management Protocol",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software is compliant with Simple Network Management Protocol (SNMP) version 1, version 2, and version 3. A large number of MIBs is supported. For more information about SNMP, see the Cisco Nexus 9000 Series NX-OS System Management Configuration Guide.",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Configuration Verification and Rollback",
+    "page": 21,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software allows you to verify the consistency of a configuration and the availability of necessary hardware resources prior to committing the configuration. You can preconfigure a device and apply the verified configuration at a later time. Configurations also include checkpoints that allow you to roll back to a known good configuration as needed. For more information about rollbacks, see the Cisco Nexus 9000 Series NX-OS System Management Configuration Guide.",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "5",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 21,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Role-Based Access Control",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Role-Based Access Control",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "With role-based access control (RBAC), you can limit access to device operations by assigning roles to users. You can customize access and restrict it to the users who require it. For more information about RBAC, see the Cisco Nexus 9000 Series NX-OS Security Configuration Guide.",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Cisco NX-OS Device Configuration Methods",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "You can use these methods to configure Cisco NX-OS devices:",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• The CLI from a Secure Shell (SSH) session, a Telnet session, or the console port. SSH provides a secure connection to the device. The CLI configuration guides are organized by feature. For more information, see the Cisco NX-OS configuration guides. For more information about SSH and Telnet, see the Cisco Nexus 9000 Series NX-OS Security Configuration Guide.",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• The XML management interface, which is a programmatic method based on the NETCONF protocol that complements the CLI. For more information, see the Cisco NX-OS XML Interface User Guide.",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• The Cisco Nexus Dashboard Fabric Controller (NDFC) client, which runs on your local PC and uses web services on the Cisco NDFC server. The Cisco NDFC server configures the device over the XML management interface. For more information about the Cisco NDFC client, see the Cisco NDFC Fundamentals Guide.",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Programmability",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This section describes the programmability features for the Cisco Nexus 9000 Series switches.",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Python API",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Python is an easy-to-learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Pyt",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Tcl",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Tool Command Language (Tcl) is a scripting language. With Tcl, you gain more flexibility in your use of the CLI commands on the device. You can use Tcl to extract certain values in the output of a show command, perform switch configurations, run Cisco NX-OS commands in a loop, or define EEM policies in a script.",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Cisco NX-API",
+    "page": 22,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-API provides web-based programmatic access to the Cisco Nexus 9000 Series switches. This support is delivered through the NX-API open-source web server. The Cisco NX-API exposes the complete configuration and management capabilities of the command-line interface (CLI) through web-based APIs.",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "6",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 22,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 23,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Bash Shell",
+    "page": 23,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "You can configure the switch to publish the output of the API calls in either XML or JSON format. For more information about the Cisco NX-API, see the Cisco Nexus 9000 Series NX-OS Programmability Guide.",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "<",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "Note NX-API performs authentication through a programmable authentication module (PAM) on the switch. Use cookies to reduce the number of PAM authentications and thus reduce the load on PAM.",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Bash Shell",
+    "page": 23,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco Nexus 9000 Series switches support direct Linux shell access. With Linux shell support, you can access the Linux system on the switch in order to use Linux commands and manage the underlying system. For more information about Bash shell support, see the Cisco Nexus 9000 Series NX-OS Programmability Guide.",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Broadcom Shell",
+    "page": 23,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco Nexus 9000 Series switch front-panel and fabric module line cards contain several Broadcom ASICs. You can use the CLI to access the command-line shell (bcm shell) for these ASICs. The benefit of using this method to access the bcm shell is that you can use Cisco NX-OS command extensions such as pipe include and redirect output to file to manage the output. In addition, the activity is recorded in the system accountinglogforauditpurposes,unlikecommandsentereddirectlyfromthebcmshell,whic",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "&",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "Caution UseBroadcomshellcommandswithcautionandonlyunderthedirectsupervisionor requestof CiscoSupport personnel.",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "이",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Traffic Routing, Forwarding, and Management",
+    "page": 23,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This section describes the traffic routing, forwarding, and managementfeatures supported by the Cisco NX-OS software.",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Ethernet Switching",
+    "page": 23,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software supports high-density, high-performance Ethernet systems and provides the following Ethernet switching features:",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• IEEE 802.1D-2004 Rapid and Multiple Spanning Tree Protocols (802.1w and 802.1s)",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• IEEE 802.1Q VLANs and trunks",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• IEEE 802.3ad link aggregation",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Unidirectional Link Detection (UDLD) in aggressive and standard modes",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "7",
+    "page": 23,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "IP Routing",
+    "page": 24,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "IP Routing",
+    "page": 24,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "IP Services",
+    "page": 24,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "IP Multicast",
+    "page": 24,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "8",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "For more information, see the Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guide and the Cisco Nexus 9000 Series NX-OS Layer 2 Switching Configuration Guide.",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software supports IP version 4 (IPv4) and IP version 6 (IPv6) and the following routing protocols:",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Open Shortest Path First (OSPF) Protocol Versions 2 (IPv4) and 3 (IPv6)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Intermediate System-to-Intermediate System (IS-IS) Protocol (IPv4 and IPv6)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Border Gateway Protocol (BGP) (IPv4 and IPv6)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Enhanced Interior Gateway Routing Protocol (EIGRP) (IPv4 only)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Routing Information Protocol Version 2 (RIPv2) (IPv4 only)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software implementations of these protocols are fully compliant with the latest standards and include 4-byte autonomous system numbers (ASNs) and incremental shortest path first (SPF). All unicast protocols support Non-Stop Forwarding Graceful Restart (NSF-GR). All protocols support all interface types, including Ethernet interfaces, VLAN interfaces, subinterfaces, port channels, and loopback interfaces.",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "For more information, see the Cisco Nexus 9000 Series NX-OS Unicast Routing Configuration Guide.",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The following IP services are available in the Cisco NX-OS software:",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Virtual routing and forwarding (VRF)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Dynamic Host Configuration Protocol (DHCP) helper",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Hot Standby Router Protocol (HSRP)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Enhanced object tracking",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Policy-based routing (PBR)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Unicast graceful restart for all protocols in IPv4 unicast graceful restart for OPSFv3 in IPv6",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "For more information, see the Cisco Nexus 9000 Series NX-OS Unicast Routing Configuration Guide.",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software includes the following multicast protocols and functions:",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Protocol Independent Multicast (PIM) Version 2 (PIMv2)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• PIM sparse mode (Any-Source Multicast [ASM] for IPv4)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Anycast rendezvous point (Anycast-RP)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Multicast NSF for IPv4",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• RP-Discovery using bootstrap router (BSR) (Auto-RP and static)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 24,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 24,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 25,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Quality of Service",
+    "page": 25,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Internet Group Management Protocol (IGMP) Versions 1, 2, and 3 router role",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• IGMPv2 host mode",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• IGMP snooping",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Multicast Source Discovery Protocol (MSDP) (for IPv4)",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "<",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "warning",
+    "content": "Note",
+    "page": 25,
+    "level": 0,
+    "metadata": {
+      "warning_type": "note"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software does not support PIM dense mode.",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "For more information, see the Cisco Nexus 9000 Series NX-OS Multicast Routing Configuration Guide.",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Quality of Service",
+    "page": 25,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software supports quality of service (QoS) functions for classification, marking, queuing, policing, and scheduling. Modular QoS CLI (MQC) supports all QoS features. You can use MQC to provide uniform configurations across various Cisco platforms. For more information, see the Cisco Nexus 9000 Series NX-OS Quality of Service Configuration Guide.",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Network Security Features",
+    "page": 25,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "The Cisco NX-OS software includes the following security features:",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Control Plane Policing (CoPP)",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Message-digest algorithm 5 (MD5) routing protocol authentication",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Authentication, authorization, and accounting (AAA)",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• RADIUS and TACACS+",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• SSH Protocol Version 2",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• SNMPv3",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Policies based on MAC and IPv4 addresses supported by named ACLs (port-based ACLs [PACLs], VLAN-based ACLs [VACLs], and router-based ACLs [RACLs])",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "list_item",
+    "content": "• Traffic storm control (unicast, multicast, and broadcast)",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "For more information, see the Cisco Nexus 9000 Series NX-OS Security Configuration Guide.",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "9",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 25,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Supported Standards",
+    "page": 26,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "title",
+    "content": "Supported Standards",
+    "page": 26,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This table lists the IEEE compliance standards.",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Table2:IEEEComplianceStandards",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 802.112 | 따스: 30066 |\n|---|---|\n| 802.17 | 21869 01 5600106 1888108 107 00160061 1280068 |\n| 802.10 | 부 트 스 테 188810 음 |\n| 802.18 | 1410216 50800108 17266 020010001 |\n| 802.1\\ | 6010 30800108 1766 020010001 |\n| 802.386 | 100088356-1 (10/1007/1000 00160060[ 0760 00000) |\n| 802.330 | 1106 888068860020 \\1011 ㅅ (7 |\n| 802.336 | 10-06188601 01600 |",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "This table lists the RFC compliance standards. For information on each RFC, see www.ietf.org.",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Table3:RFCComplianceStandards",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Standard",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Description",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 867『 |  |\n|---|---|\n| 때” 1997 | 26772 (207727770777769 47777/07/76 |\n| 때: 2385 | 207076007077 07277? 569570779 470 706 7672 72725 .5787707706 (20700 |\n| 때” 2439 | 2677? 407/76.7/7422 40702078 |\n| 때” 2519 | 거 270007701007.707/' 772707-7/20770277 00076 40976907707 |\n| 때: 2545 | (796 07 26774 7470/77227070007 소 07607970779 7071 77276 777707/-7/207770777 고 00022778 |\n| 때 2858 | 20700072227070007 406707570779 707\" 26724 |\n| 때” 2918 | 07076 67765) (70020077/7702 707\" 26724 |\n| 때” 3065 | 거 0007207707",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "10",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 26,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 26,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 27,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Supported Standards",
+    "page": 27,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 51800810 | 066000000 |\n|---|---|\n| 때” 3392 | (702007777765 4017607775600770077 4707 26724 |\n| 때 (6 4271 | 2(022 76757077 4 |\n| ] 때 (6 4273 | 27724 7472 - 72670077770775 07\" 220770860 (070760075 7077 20724 |\n| 때” 4456 | 2677? 40706 46/76007077- 477 기 7/7077707776 70 70777 4265/7 7777077707 2672 (72062) |\n| 때” 4486 | 506000069.7077 2007? 00056 72077770077077 770695080 |\n| ] 때 (6 4724 | (770067007/ /697077 240000777577.70/\" 2062 |\n| 때” 4893 | 2677? .52022077.70/ ㆍ 7070~00767 45 202070706/' 52006 ",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "ietf-draft",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Dynamic Capability",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "(draft-ietf-idr-dynamic-cap-03.txt)",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "IP Multicast",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "11",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 27,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Supported Standards",
+    "page": 28,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "12",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 때” 2236 | 77027077707 07070) 420774980070077 2/070007/, 12757077 2 |\n|---|---|\n| 때 (2 3376 | 77027077707 07070) 420774980070077 27/070007/, 12757077 3 |\n| 때: 3446 | 거 72070097 46770062707/5 70277 (42) 727200/70727577 76578 7?7070007 27770027007007077 7247/7/770057 (20744) 0070 22707/770057 507006 /279001677/ 27/070007 (025222) |\n| ] 때 (： 3569 | 거 72 (2026777010 07 .507/7/00-527000770 2270772720097 (55047) |\n| 때 (〉 3618 | 22707/770057 507006 /279001677/ 27/070007 (025222) |\n| 때” 4601 | 27070007",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "RFC 793",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "TCP",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "RFC 826",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "ARP",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "RFC 854",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Telnet",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "RFC 959",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "FTP",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 28,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 28,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 29,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Supported Standards",
+    "page": 29,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 51800810 | 066000000 |\n|---|---|\n| 때: 1027 | 20001 4242 |\n| 때 8573 | 과 772 506070771 75 00/1072000 17772 740 겨 4.5726(7044(' 0700/760777007707 77200/70727572 |\n| 때 7822 | 2072.14 |\n| (66 1305 | 2072.13 |\n| (0 1519 | 07722 |\n| 때: 1542 | 20077? 76707 |\n| ] 재 (〉 1591 | 72209 07007 |\n| ] 때 (6 1812 | 70214 707070/5 |\n| 때 (6 2131 | 70727(672 2720/000/ |\n| (0 2338 | 122 |\n| 19-16 |  |\n| 때 (〉! 1142 (051 10589) | (257 70569 7770777007070 51157007 70 202767777007076 57157607 777770-00770777 70202778 006",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "RFC 3847",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Restart Signaling for IS-IS",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "ietf-draft",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Internet Draft Point-to-point",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "operation over LAN in link-state",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "routing protocols",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "(draft-ietf-isis-igp-p2p-over-lan-06.txt)",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "13",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 29,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "| |",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Supported Standards",
+    "page": 30,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "14",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "header",
+    "content": "Overview",
+    "page": 30,
+    "level": 2,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Standard",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Description",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "table",
+    "content": "| 0580 |  |\n|---|---|\n| ] 때 (6 2328 | (25200 18757077 2 |\n| 때 (： 2370 | (25220 (20200160 /.54 (020707 |\n| 때 (〉! 2740 | (25/20707/1 72706 (05220 1767/57007 3) |\n| 때 (〉 3101 | (<2.57207007-50-571/0/02-4700 (27594) (22007 |\n| 때 (2 3137 | (2570.57 /407076/: 40176077790070077 |\n| 때: 3509 | 기 /7077707776 7772/607760770770779 07 (2572404760 20706/' 207067/5 |\n| ] 때 (6 3623 | (770067007/ 25707 20697077 |\n| ] 때 (2 4750 | (25200 16757077 2 4270 |\n| 66800 60020 (288) |\n| 때: 2597 | 기 59107600 207700707778 /",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Simple Network Management",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Protocol (SNMP) Management",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Frameworks",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  },
+  {
+    "type": "paragraph",
+    "content": "|",
+    "page": 30,
+    "level": 0,
+    "metadata": {}
+  }
+]

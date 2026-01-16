@@ -1,0 +1,619 @@
+{
+  "source": "./manuals/Cisco_partial.pdf",
+  "output_dir": "processed\\Cisco_partial",
+  "chapters": [
+    {
+      "title": "Introduction",
+      "filepath": "processed\\Cisco_partial\\chapters\\01_Introduction.md",
+      "page_range": "1-1",
+      "element_count": 1,
+      "char_count": 14
+    },
+    {
+      "title": "Cisco Nexus 9000 Series NX-OS Fundamentals Configuration Guide, Release 10.6(x)",
+      "filepath": "processed\\Cisco_partial\\chapters\\02_Cisco Nexus 9000 Series NX-OS Fundamentals Configu.md",
+      "page_range": "1-1",
+      "element_count": 2,
+      "char_count": 111
+    },
+    {
+      "title": "Americas Headquarters",
+      "filepath": "processed\\Cisco_partial\\chapters\\03_Americas Headquarters.md",
+      "page_range": "1-4",
+      "element_count": 17,
+      "char_count": 4169
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\04_Contents.md",
+      "page_range": "4-5",
+      "element_count": 27,
+      "char_count": 2299
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\05_Contents.md",
+      "page_range": "5-6",
+      "element_count": 3,
+      "char_count": 29
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\06_Contents.md",
+      "page_range": "6-7",
+      "element_count": 22,
+      "char_count": 2330
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\07_Contents.md",
+      "page_range": "7-8",
+      "element_count": 3,
+      "char_count": 31
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\08_Contents.md",
+      "page_range": "8-8",
+      "element_count": 48,
+      "char_count": 1054
+    },
+    {
+      "title": "Files 124",
+      "filepath": "processed\\Cisco_partial\\chapters\\09_Files 124.md",
+      "page_range": "8-9",
+      "element_count": 24,
+      "char_count": 1455
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\10_Contents.md",
+      "page_range": "9-10",
+      "element_count": 3,
+      "char_count": 30
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\11_Contents.md",
+      "page_range": "10-11",
+      "element_count": 17,
+      "char_count": 1904
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\12_Contents.md",
+      "page_range": "11-12",
+      "element_count": 3,
+      "char_count": 30
+    },
+    {
+      "title": "Contents",
+      "filepath": "processed\\Cisco_partial\\chapters\\13_Contents.md",
+      "page_range": "12-12",
+      "element_count": 5,
+      "char_count": 103
+    },
+    {
+      "title": "Preface",
+      "filepath": "processed\\Cisco_partial\\chapters\\14_Preface.md",
+      "page_range": "13-13",
+      "element_count": 7,
+      "char_count": 314
+    },
+    {
+      "title": "Audience",
+      "filepath": "processed\\Cisco_partial\\chapters\\15_Audience.md",
+      "page_range": "13-13",
+      "element_count": 2,
+      "char_count": 118
+    },
+    {
+      "title": "Document Conventions",
+      "filepath": "processed\\Cisco_partial\\chapters\\16_Document Conventions.md",
+      "page_range": "13-13",
+      "element_count": 7,
+      "char_count": 937
+    },
+    {
+      "title": "Preface",
+      "filepath": "processed\\Cisco_partial\\chapters\\17_Preface.md",
+      "page_range": "14-14",
+      "element_count": 2,
+      "char_count": 15
+    },
+    {
+      "title": "Related Documentation for Cisco Nexus 9000 Series Switches",
+      "filepath": "processed\\Cisco_partial\\chapters\\18_Related Documentation for Cisco Nexus 9000 Series .md",
+      "page_range": "14-14",
+      "element_count": 6,
+      "char_count": 1131
+    },
+    {
+      "title": "Related Documentation for Cisco Nexus 9000 Series Switches",
+      "filepath": "processed\\Cisco_partial\\chapters\\19_Related Documentation for Cisco Nexus 9000 Series .md",
+      "page_range": "14-14",
+      "element_count": 3,
+      "char_count": 241
+    },
+    {
+      "title": "Documentation Feedback",
+      "filepath": "processed\\Cisco_partial\\chapters\\20_Documentation Feedback.md",
+      "page_range": "14-14",
+      "element_count": 2,
+      "char_count": 198
+    },
+    {
+      "title": "Communications, services, and additional information",
+      "filepath": "processed\\Cisco_partial\\chapters\\21_Communications services and additional information.md",
+      "page_range": "14-15",
+      "element_count": 13,
+      "char_count": 727
+    },
+    {
+      "title": "Preface",
+      "filepath": "processed\\Cisco_partial\\chapters\\22_Preface.md",
+      "page_range": "15-15",
+      "element_count": 1,
+      "char_count": 10
+    },
+    {
+      "title": "Cisco Bug Search Tool",
+      "filepath": "processed\\Cisco_partial\\chapters\\23_Cisco Bug Search Tool.md",
+      "page_range": "15-15",
+      "element_count": 1,
+      "char_count": 24
+    },
+    {
+      "title": "Cisco Bug Search Tool",
+      "filepath": "processed\\Cisco_partial\\chapters\\24_Cisco Bug Search Tool.md",
+      "page_range": "15-15",
+      "element_count": 2,
+      "char_count": 281
+    },
+    {
+      "title": "Documentation feedback",
+      "filepath": "processed\\Cisco_partial\\chapters\\25_Documentation feedback.md",
+      "page_range": "15-16",
+      "element_count": 8,
+      "char_count": 260
+    },
+    {
+      "title": "Documentation feedback",
+      "filepath": "processed\\Cisco_partial\\chapters\\26_Documentation feedback.md",
+      "page_range": "16-16",
+      "element_count": 5,
+      "char_count": 117
+    },
+    {
+      "title": "Preface",
+      "filepath": "processed\\Cisco_partial\\chapters\\27_Preface.md",
+      "page_range": "16-17",
+      "element_count": 4,
+      "char_count": 33
+    },
+    {
+      "title": "New and Changed Information",
+      "filepath": "processed\\Cisco_partial\\chapters\\28_New and Changed Information.md",
+      "page_range": "17-17",
+      "element_count": 2,
+      "char_count": 74
+    },
+    {
+      "title": "New and Changed Information",
+      "filepath": "processed\\Cisco_partial\\chapters\\29_New and Changed Information.md",
+      "page_range": "17-17",
+      "element_count": 1,
+      "char_count": 30
+    },
+    {
+      "title": "Table1:NewandChangedFeatures",
+      "filepath": "processed\\Cisco_partial\\chapters\\30_Table1NewandChangedFeatures.md",
+      "page_range": "17-18",
+      "element_count": 7,
+      "char_count": 366
+    },
+    {
+      "title": "New and Changed Information",
+      "filepath": "processed\\Cisco_partial\\chapters\\31_New and Changed Information.md",
+      "page_range": "18-18",
+      "element_count": 5,
+      "char_count": 120
+    },
+    {
+      "title": "New and Changed Information",
+      "filepath": "processed\\Cisco_partial\\chapters\\32_New and Changed Information.md",
+      "page_range": "18-19",
+      "element_count": 4,
+      "char_count": 53
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\33_Overview.md",
+      "page_range": "19-19",
+      "element_count": 13,
+      "char_count": 462
+    },
+    {
+      "title": "Licensing Requirements",
+      "filepath": "processed\\Cisco_partial\\chapters\\34_Licensing Requirements.md",
+      "page_range": "19-19",
+      "element_count": 2,
+      "char_count": 214
+    },
+    {
+      "title": "Supported Platforms",
+      "filepath": "processed\\Cisco_partial\\chapters\\35_Supported Platforms.md",
+      "page_range": "19-19",
+      "element_count": 2,
+      "char_count": 179
+    },
+    {
+      "title": "Software Image",
+      "filepath": "processed\\Cisco_partial\\chapters\\36_Software Image.md",
+      "page_range": "19-19",
+      "element_count": 6,
+      "char_count": 170
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\37_Overview.md",
+      "page_range": "20-20",
+      "element_count": 2,
+      "char_count": 16
+    },
+    {
+      "title": "Software Compatibility",
+      "filepath": "processed\\Cisco_partial\\chapters\\38_Software Compatibility.md",
+      "page_range": "20-20",
+      "element_count": 1,
+      "char_count": 25
+    },
+    {
+      "title": "Software Compatibility",
+      "filepath": "processed\\Cisco_partial\\chapters\\39_Software Compatibility.md",
+      "page_range": "20-20",
+      "element_count": 2,
+      "char_count": 270
+    },
+    {
+      "title": "Spine/Leaf Topology",
+      "filepath": "processed\\Cisco_partial\\chapters\\40_SpineLeaf Topology.md",
+      "page_range": "20-20",
+      "element_count": 2,
+      "char_count": 100
+    },
+    {
+      "title": "Figure1:Spine/LeafTopology",
+      "filepath": "processed\\Cisco_partial\\chapters\\41_Figure1SpineLeafTopology.md",
+      "page_range": "20-20",
+      "element_count": 4,
+      "char_count": 316
+    },
+    {
+      "title": "Modular Software Design",
+      "filepath": "processed\\Cisco_partial\\chapters\\42_Modular Software Design.md",
+      "page_range": "20-20",
+      "element_count": 2,
+      "char_count": 627
+    },
+    {
+      "title": "Serviceability",
+      "filepath": "processed\\Cisco_partial\\chapters\\43_Serviceability.md",
+      "page_range": "20-20",
+      "element_count": 2,
+      "char_count": 211
+    },
+    {
+      "title": "Switched Port Analyzer",
+      "filepath": "processed\\Cisco_partial\\chapters\\44_Switched Port Analyzer.md",
+      "page_range": "20-21",
+      "element_count": 8,
+      "char_count": 479
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\45_Overview.md",
+      "page_range": "21-21",
+      "element_count": 1,
+      "char_count": 11
+    },
+    {
+      "title": "Ethanalyzer",
+      "filepath": "processed\\Cisco_partial\\chapters\\46_Ethanalyzer.md",
+      "page_range": "21-21",
+      "element_count": 1,
+      "char_count": 14
+    },
+    {
+      "title": "Ethanalyzer",
+      "filepath": "processed\\Cisco_partial\\chapters\\47_Ethanalyzer.md",
+      "page_range": "21-21",
+      "element_count": 2,
+      "char_count": 408
+    },
+    {
+      "title": "Smart Call Home",
+      "filepath": "processed\\Cisco_partial\\chapters\\48_Smart Call Home.md",
+      "page_range": "21-21",
+      "element_count": 2,
+      "char_count": 703
+    },
+    {
+      "title": "Online Diagnostics",
+      "filepath": "processed\\Cisco_partial\\chapters\\49_Online Diagnostics.md",
+      "page_range": "21-21",
+      "element_count": 2,
+      "char_count": 423
+    },
+    {
+      "title": "Embedded Event Manager",
+      "filepath": "processed\\Cisco_partial\\chapters\\50_Embedded Event Manager.md",
+      "page_range": "21-21",
+      "element_count": 2,
+      "char_count": 280
+    },
+    {
+      "title": "Manageability",
+      "filepath": "processed\\Cisco_partial\\chapters\\51_Manageability.md",
+      "page_range": "21-21",
+      "element_count": 2,
+      "char_count": 109
+    },
+    {
+      "title": "Simple Network Management Protocol",
+      "filepath": "processed\\Cisco_partial\\chapters\\52_Simple Network Management Protocol.md",
+      "page_range": "21-21",
+      "element_count": 2,
+      "char_count": 307
+    },
+    {
+      "title": "Configuration Verification and Rollback",
+      "filepath": "processed\\Cisco_partial\\chapters\\53_Configuration Verification and Rollback.md",
+      "page_range": "21-21",
+      "element_count": 7,
+      "char_count": 619
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\54_Overview.md",
+      "page_range": "22-22",
+      "element_count": 2,
+      "char_count": 16
+    },
+    {
+      "title": "Role-Based Access Control",
+      "filepath": "processed\\Cisco_partial\\chapters\\55_Role-Based Access Control.md",
+      "page_range": "22-22",
+      "element_count": 1,
+      "char_count": 28
+    },
+    {
+      "title": "Role-Based Access Control",
+      "filepath": "processed\\Cisco_partial\\chapters\\56_Role-Based Access Control.md",
+      "page_range": "22-22",
+      "element_count": 2,
+      "char_count": 310
+    },
+    {
+      "title": "Cisco NX-OS Device Configuration Methods",
+      "filepath": "processed\\Cisco_partial\\chapters\\57_Cisco NX-OS Device Configuration Methods.md",
+      "page_range": "22-22",
+      "element_count": 5,
+      "char_count": 967
+    },
+    {
+      "title": "Programmability",
+      "filepath": "processed\\Cisco_partial\\chapters\\58_Programmability.md",
+      "page_range": "22-22",
+      "element_count": 2,
+      "char_count": 113
+    },
+    {
+      "title": "Python API",
+      "filepath": "processed\\Cisco_partial\\chapters\\59_Python API.md",
+      "page_range": "22-22",
+      "element_count": 2,
+      "char_count": 849
+    },
+    {
+      "title": "Tcl",
+      "filepath": "processed\\Cisco_partial\\chapters\\60_Tcl.md",
+      "page_range": "22-22",
+      "element_count": 2,
+      "char_count": 321
+    },
+    {
+      "title": "Cisco NX-API",
+      "filepath": "processed\\Cisco_partial\\chapters\\61_Cisco NX-API.md",
+      "page_range": "22-23",
+      "element_count": 8,
+      "char_count": 418
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\62_Overview.md",
+      "page_range": "23-23",
+      "element_count": 1,
+      "char_count": 11
+    },
+    {
+      "title": "Bash Shell",
+      "filepath": "processed\\Cisco_partial\\chapters\\63_Bash Shell.md",
+      "page_range": "23-23",
+      "element_count": 4,
+      "char_count": 415
+    },
+    {
+      "title": "Bash Shell",
+      "filepath": "processed\\Cisco_partial\\chapters\\64_Bash Shell.md",
+      "page_range": "23-23",
+      "element_count": 2,
+      "char_count": 331
+    },
+    {
+      "title": "Broadcom Shell",
+      "filepath": "processed\\Cisco_partial\\chapters\\65_Broadcom Shell.md",
+      "page_range": "23-23",
+      "element_count": 5,
+      "char_count": 790
+    },
+    {
+      "title": "Traffic Routing, Forwarding, and Management",
+      "filepath": "processed\\Cisco_partial\\chapters\\66_Traffic Routing Forwarding and Management.md",
+      "page_range": "23-23",
+      "element_count": 2,
+      "char_count": 165
+    },
+    {
+      "title": "Ethernet Switching",
+      "filepath": "processed\\Cisco_partial\\chapters\\67_Ethernet Switching.md",
+      "page_range": "23-24",
+      "element_count": 11,
+      "char_count": 484
+    },
+    {
+      "title": "IP Routing",
+      "filepath": "processed\\Cisco_partial\\chapters\\68_IP Routing.md",
+      "page_range": "24-24",
+      "element_count": 1,
+      "char_count": 13
+    },
+    {
+      "title": "IP Routing",
+      "filepath": "processed\\Cisco_partial\\chapters\\69_IP Routing.md",
+      "page_range": "24-24",
+      "element_count": 1,
+      "char_count": 13
+    },
+    {
+      "title": "IP Services",
+      "filepath": "processed\\Cisco_partial\\chapters\\70_IP Services.md",
+      "page_range": "24-24",
+      "element_count": 1,
+      "char_count": 14
+    },
+    {
+      "title": "IP Multicast",
+      "filepath": "processed\\Cisco_partial\\chapters\\71_IP Multicast.md",
+      "page_range": "24-24",
+      "element_count": 28,
+      "char_count": 2063
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\72_Overview.md",
+      "page_range": "24-25",
+      "element_count": 3,
+      "char_count": 17
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\73_Overview.md",
+      "page_range": "25-25",
+      "element_count": 1,
+      "char_count": 11
+    },
+    {
+      "title": "Quality of Service",
+      "filepath": "processed\\Cisco_partial\\chapters\\74_Quality of Service.md",
+      "page_range": "25-25",
+      "element_count": 9,
+      "char_count": 382
+    },
+    {
+      "title": "Quality of Service",
+      "filepath": "processed\\Cisco_partial\\chapters\\75_Quality of Service.md",
+      "page_range": "25-25",
+      "element_count": 2,
+      "char_count": 386
+    },
+    {
+      "title": "Network Security Features",
+      "filepath": "processed\\Cisco_partial\\chapters\\76_Network Security Features.md",
+      "page_range": "25-26",
+      "element_count": 17,
+      "char_count": 728
+    },
+    {
+      "title": "Supported Standards",
+      "filepath": "processed\\Cisco_partial\\chapters\\77_Supported Standards.md",
+      "page_range": "26-26",
+      "element_count": 1,
+      "char_count": 22
+    },
+    {
+      "title": "Supported Standards",
+      "filepath": "processed\\Cisco_partial\\chapters\\78_Supported Standards.md",
+      "page_range": "26-26",
+      "element_count": 13,
+      "char_count": 1227
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\79_Overview.md",
+      "page_range": "26-27",
+      "element_count": 3,
+      "char_count": 17
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\80_Overview.md",
+      "page_range": "27-27",
+      "element_count": 1,
+      "char_count": 11
+    },
+    {
+      "title": "Supported Standards",
+      "filepath": "processed\\Cisco_partial\\chapters\\81_Supported Standards.md",
+      "page_range": "27-28",
+      "element_count": 12,
+      "char_count": 1355
+    },
+    {
+      "title": "Supported Standards",
+      "filepath": "processed\\Cisco_partial\\chapters\\82_Supported Standards.md",
+      "page_range": "28-28",
+      "element_count": 14,
+      "char_count": 1223
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\83_Overview.md",
+      "page_range": "28-29",
+      "element_count": 3,
+      "char_count": 17
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\84_Overview.md",
+      "page_range": "29-29",
+      "element_count": 1,
+      "char_count": 11
+    },
+    {
+      "title": "Supported Standards",
+      "filepath": "processed\\Cisco_partial\\chapters\\85_Supported Standards.md",
+      "page_range": "29-30",
+      "element_count": 15,
+      "char_count": 1295
+    },
+    {
+      "title": "Supported Standards",
+      "filepath": "processed\\Cisco_partial\\chapters\\86_Supported Standards.md",
+      "page_range": "30-30",
+      "element_count": 4,
+      "char_count": 32
+    },
+    {
+      "title": "Overview",
+      "filepath": "processed\\Cisco_partial\\chapters\\87_Overview.md",
+      "page_range": "30-30",
+      "element_count": 9,
+      "char_count": 1242
+    }
+  ],
+  "statistics": {
+    "total_elements": 512,
+    "total_chapters": 87
+  }
+}

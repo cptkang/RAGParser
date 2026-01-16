@@ -1,0 +1,1956 @@
+{
+  "source": "./manuals/Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200.pdf",
+  "output_dir": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200",
+  "chapters": [
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\01_Configuring Layer 3 Interfaces.md",
+      "page_range": "1-1",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Configuring a Static MAC Address on a Layer 3 Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\02_Configuring a Static MAC Address on a Layer 3 Inte.md",
+      "page_range": "1-1",
+      "element_count": 1,
+      "char_count": 58
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\03_Example.md",
+      "page_range": "1-1",
+      "element_count": 3,
+      "char_count": 276
+    },
+    {
+      "title": "Configuring a Static MAC Address on a Layer 3 Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\04_Configuring a Static MAC Address on a Layer 3 Inte.md",
+      "page_range": "1-1",
+      "element_count": 6,
+      "char_count": 476
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\05_SUMMARY STEPS.md",
+      "page_range": "1-1",
+      "element_count": 8,
+      "char_count": 332
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\06_DETAILED STEPS.md",
+      "page_range": "1-2",
+      "element_count": 9,
+      "char_count": 495
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\07_Configuring Layer 3 Interfaces.md",
+      "page_range": "2-2",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Configuring a Loopback Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\08_Configuring a Loopback Interface.md",
+      "page_range": "2-2",
+      "element_count": 2,
+      "char_count": 906
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\09_Example.md",
+      "page_range": "2-2",
+      "element_count": 3,
+      "char_count": 253
+    },
+    {
+      "title": "Configuring a Loopback Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\10_Configuring a Loopback Interface.md",
+      "page_range": "2-2",
+      "element_count": 2,
+      "char_count": 124
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\11_Before you begin.md",
+      "page_range": "2-2",
+      "element_count": 2,
+      "char_count": 118
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\12_SUMMARY STEPS.md",
+      "page_range": "2-2",
+      "element_count": 13,
+      "char_count": 314
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\13_Configuring Layer 3 Interfaces.md",
+      "page_range": "3-3",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Configuring PBR on SVI on the Gateway",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\14_Configuring PBR on SVI on the Gateway.md",
+      "page_range": "3-3",
+      "element_count": 1,
+      "char_count": 40
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\15_DETAILED STEPS.md",
+      "page_range": "3-3",
+      "element_count": 1,
+      "char_count": 17
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\16_Procedure.md",
+      "page_range": "3-3",
+      "element_count": 2,
+      "char_count": 1250
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\17_Example.md",
+      "page_range": "3-3",
+      "element_count": 3,
+      "char_count": 244
+    },
+    {
+      "title": "Configuring PBR on SVI on the Gateway",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\18_Configuring PBR on SVI on the Gateway.md",
+      "page_range": "3-4",
+      "element_count": 8,
+      "char_count": 213
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\19_Configuring Layer 3 Interfaces.md",
+      "page_range": "4-4",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Configuring PBR on SVI on the Gateway",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\20_Configuring PBR on SVI on the Gateway.md",
+      "page_range": "4-4",
+      "element_count": 3,
+      "char_count": 231
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\21_SUMMARY STEPS.md",
+      "page_range": "4-4",
+      "element_count": 27,
+      "char_count": 465
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\22_DETAILED STEPS.md",
+      "page_range": "4-4",
+      "element_count": 8,
+      "char_count": 491
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\23_Configuring Layer 3 Interfaces.md",
+      "page_range": "5-5",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Configuring PBR on SVI on the Gateway",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\24_Configuring PBR on SVI on the Gateway.md",
+      "page_range": "5-6",
+      "element_count": 13,
+      "char_count": 1781
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\25_Configuring Layer 3 Interfaces.md",
+      "page_range": "6-6",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Configuring IP Unnumbered on SVI Secondary VLAN on the Gateway",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\26_Configuring IP Unnumbered on SVI Secondary VLAN on.md",
+      "page_range": "6-6",
+      "element_count": 2,
+      "char_count": 593
+    },
+    {
+      "title": "Configuring IP Unnumbered on SVI Secondary VLAN on the Gateway",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\27_Configuring IP Unnumbered on SVI Secondary VLAN on.md",
+      "page_range": "6-6",
+      "element_count": 2,
+      "char_count": 278
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\28_SUMMARY STEPS.md",
+      "page_range": "6-6",
+      "element_count": 25,
+      "char_count": 367
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\29_DETAILED STEPS.md",
+      "page_range": "6-6",
+      "element_count": 8,
+      "char_count": 285
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\30_Configuring Layer 3 Interfaces.md",
+      "page_range": "7-7",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Configuring SVI TCAM Region",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\31_Configuring SVI TCAM Region.md",
+      "page_range": "7-7",
+      "element_count": 3,
+      "char_count": 1495
+    },
+    {
+      "title": "Configuring SVI TCAM Region",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\32_Configuring SVI TCAM Region.md",
+      "page_range": "7-8",
+      "element_count": 8,
+      "char_count": 425
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\33_Configuring Layer 3 Interfaces.md",
+      "page_range": "8-8",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Configuring SVI TCAM Region",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\34_Configuring SVI TCAM Region.md",
+      "page_range": "8-8",
+      "element_count": 1,
+      "char_count": 30
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\35_SUMMARY STEPS.md",
+      "page_range": "8-8",
+      "element_count": 5,
+      "char_count": 249
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\36_DETAILED STEPS.md",
+      "page_range": "8-8",
+      "element_count": 9,
+      "char_count": 1199
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\37_Configuring Layer 3 Interfaces.md",
+      "page_range": "9-9",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Assigning an Interface to a VRF",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\38_Assigning an Interface to a VRF.md",
+      "page_range": "9-9",
+      "element_count": 6,
+      "char_count": 815
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\39_Example.md",
+      "page_range": "9-9",
+      "element_count": 3,
+      "char_count": 417
+    },
+    {
+      "title": "Assigning an Interface to a VRF",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\40_Assigning an Interface to a VRF.md",
+      "page_range": "9-9",
+      "element_count": 2,
+      "char_count": 77
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\41_SUMMARY STEPS.md",
+      "page_range": "9-10",
+      "element_count": 14,
+      "char_count": 324
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\42_Configuring Layer 3 Interfaces.md",
+      "page_range": "10-10",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Configuring a DHCP Client on an Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\43_Configuring a DHCP Client on an Interface.md",
+      "page_range": "10-10",
+      "element_count": 1,
+      "char_count": 44
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\44_DETAILED STEPS.md",
+      "page_range": "10-10",
+      "element_count": 3,
+      "char_count": 1065
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\45_Example.md",
+      "page_range": "10-10",
+      "element_count": 3,
+      "char_count": 298
+    },
+    {
+      "title": "Configuring a DHCP Client on an Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\46_Configuring a DHCP Client on an Interface.md",
+      "page_range": "10-10",
+      "element_count": 8,
+      "char_count": 268
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\47_Configuring Layer 3 Interfaces.md",
+      "page_range": "11-11",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Configuring a DHCP Client on an Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\48_Configuring a DHCP Client on an Interface.md",
+      "page_range": "11-11",
+      "element_count": 1,
+      "char_count": 44
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\49_SUMMARY STEPS.md",
+      "page_range": "11-11",
+      "element_count": 6,
+      "char_count": 323
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\50_DETAILED STEPS.md",
+      "page_range": "11-11",
+      "element_count": 4,
+      "char_count": 1044
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\51_Example.md",
+      "page_range": "11-12",
+      "element_count": 11,
+      "char_count": 565
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\52_Configuring Layer 3 Interfaces.md",
+      "page_range": "12-12",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Configuring SVI and Subinterface Ingress/Egress Unicast Counters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\53_Configuring SVI and Subinterface IngressEgress Uni.md",
+      "page_range": "12-12",
+      "element_count": 1,
+      "char_count": 67
+    },
+    {
+      "title": "Configuring SVI and Subinterface Ingress/Egress Unicast Counters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\54_Configuring SVI and Subinterface IngressEgress Uni.md",
+      "page_range": "12-12",
+      "element_count": 11,
+      "char_count": 1420
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\55_SUMMARY STEPS.md",
+      "page_range": "12-12",
+      "element_count": 6,
+      "char_count": 145
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\56_DETAILED STEPS.md",
+      "page_range": "12-12",
+      "element_count": 8,
+      "char_count": 681
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\57_Configuring Layer 3 Interfaces.md",
+      "page_range": "13-13",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Configuring Subinterface Multicast and Broadcast Counters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\58_Configuring Subinterface Multicast and Broadcast C.md",
+      "page_range": "13-13",
+      "element_count": 2,
+      "char_count": 382
+    },
+    {
+      "title": "Configuring Subinterface Multicast and Broadcast Counters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\59_Configuring Subinterface Multicast and Broadcast C.md",
+      "page_range": "13-13",
+      "element_count": 3,
+      "char_count": 300
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\60_SUMMARY STEPS.md",
+      "page_range": "13-13",
+      "element_count": 6,
+      "char_count": 141
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\61_DETAILED STEPS.md",
+      "page_range": "13-14",
+      "element_count": 9,
+      "char_count": 653
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\62_Configuring Layer 3 Interfaces.md",
+      "page_range": "14-14",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Configuring Subinterface Multicast and Broadcast Counters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\63_Configuring Subinterface Multicast and Broadcast C.md",
+      "page_range": "14-14",
+      "element_count": 3,
+      "char_count": 177
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\64_Example.md",
+      "page_range": "14-14",
+      "element_count": 8,
+      "char_count": 879
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\65_Configuring Layer 3 Interfaces.md",
+      "page_range": "15-15",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Verifying the Layer 3 Interfaces Configuration",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\66_Verifying the Layer 3 Interfaces Configuration.md",
+      "page_range": "15-15",
+      "element_count": 7,
+      "char_count": 261
+    },
+    {
+      "title": "Verifying the Layer 3 Interfaces Configuration",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\67_Verifying the Layer 3 Interfaces Configuration.md",
+      "page_range": "15-16",
+      "element_count": 9,
+      "char_count": 1902
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\68_Configuring Layer 3 Interfaces.md",
+      "page_range": "16-16",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Monitoring the Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\69_Monitoring the Layer 3 Interfaces.md",
+      "page_range": "16-16",
+      "element_count": 2,
+      "char_count": 465
+    },
+    {
+      "title": "Monitoring the Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\70_Monitoring the Layer 3 Interfaces.md",
+      "page_range": "16-16",
+      "element_count": 15,
+      "char_count": 1887
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\71_Configuring Layer 3 Interfaces.md",
+      "page_range": "17-17",
+      "element_count": 2,
+      "char_count": 38
+    },
+    {
+      "title": "Configuration Examples for Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\72_Configuration Examples for Layer 3 Interfaces.md",
+      "page_range": "17-17",
+      "element_count": 2,
+      "char_count": 653
+    },
+    {
+      "title": "Configuration Examples for Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\73_Configuration Examples for Layer 3 Interfaces.md",
+      "page_range": "17-18",
+      "element_count": 16,
+      "char_count": 1664
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\74_Configuring Layer 3 Interfaces.md",
+      "page_range": "18-18",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Related Documents",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\75_Related Documents.md",
+      "page_range": "18-18",
+      "element_count": 1,
+      "char_count": 20
+    },
+    {
+      "title": "Related Documents",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\76_Related Documents.md",
+      "page_range": "18-19",
+      "element_count": 8,
+      "char_count": 351
+    },
+    {
+      "title": "Related Documents",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\77_Related Documents.md",
+      "page_range": "19-19",
+      "element_count": 5,
+      "char_count": 110
+    },
+    {
+      "title": "Configuring Layer 3 Interfaces",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\78_Configuring Layer 3 Interfaces.md",
+      "page_range": "19-20",
+      "element_count": 4,
+      "char_count": 56
+    },
+    {
+      "title": "ConfiguringBidirectionalForwardingDetection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\79_ConfiguringBidirectionalForwardingDetection.md",
+      "page_range": "20-20",
+      "element_count": 16,
+      "char_count": 707
+    },
+    {
+      "title": "Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\80_Bidirectional Forwarding Detection.md",
+      "page_range": "20-20",
+      "element_count": 4,
+      "char_count": 563
+    },
+    {
+      "title": "Asynchronous mode",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\81_Asynchronous mode.md",
+      "page_range": "20-20",
+      "element_count": 9,
+      "char_count": 335
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\82_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "21-21",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "BFD Detection of Failures",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\83_BFD Detection of Failures.md",
+      "page_range": "21-21",
+      "element_count": 1,
+      "char_count": 28
+    },
+    {
+      "title": "BFD session parameters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\84_BFD session parameters.md",
+      "page_range": "21-21",
+      "element_count": 5,
+      "char_count": 603
+    },
+    {
+      "title": "BFD neighbor workflow",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\85_BFD neighbor workflow.md",
+      "page_range": "21-21",
+      "element_count": 8,
+      "char_count": 580
+    },
+    {
+      "title": "BFD Detection of Failures",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\86_BFD Detection of Failures.md",
+      "page_range": "21-22",
+      "element_count": 10,
+      "char_count": 1067
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\87_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "22-22",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Distributed Operation",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\88_Distributed Operation.md",
+      "page_range": "22-22",
+      "element_count": 5,
+      "char_count": 386
+    },
+    {
+      "title": "Distributed Operation",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\89_Distributed Operation.md",
+      "page_range": "22-22",
+      "element_count": 2,
+      "char_count": 346
+    },
+    {
+      "title": "BFD Echo Function",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\90_BFD Echo Function.md",
+      "page_range": "22-22",
+      "element_count": 2,
+      "char_count": 800
+    },
+    {
+      "title": "Security",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\91_Security.md",
+      "page_range": "22-22",
+      "element_count": 3,
+      "char_count": 430
+    },
+    {
+      "title": "High Availability",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\92_High Availability.md",
+      "page_range": "22-22",
+      "element_count": 7,
+      "char_count": 296
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\93_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "23-23",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "Virtualization Support",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\94_Virtualization Support.md",
+      "page_range": "23-23",
+      "element_count": 1,
+      "char_count": 25
+    },
+    {
+      "title": "Virtualization Support",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\95_Virtualization Support.md",
+      "page_range": "23-23",
+      "element_count": 2,
+      "char_count": 209
+    },
+    {
+      "title": "Prerequisites for BFD",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\96_Prerequisites for BFD.md",
+      "page_range": "23-23",
+      "element_count": 6,
+      "char_count": 352
+    },
+    {
+      "title": "Guidelines and Limitations",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\97_Guidelines and Limitations.md",
+      "page_range": "23-24",
+      "element_count": 20,
+      "char_count": 1542
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\98_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "24-24",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Guidelines and Limitations",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\99_Guidelines and Limitations.md",
+      "page_range": "24-25",
+      "element_count": 28,
+      "char_count": 2796
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\100_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "25-25",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Guidelines and Limitations",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\101_Guidelines and Limitations.md",
+      "page_range": "25-26",
+      "element_count": 27,
+      "char_count": 2521
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\102_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "26-26",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Guidelines and Limitations",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\103_Guidelines and Limitations.md",
+      "page_range": "26-26",
+      "element_count": 13,
+      "char_count": 1304
+    },
+    {
+      "title": "• port-channel bfd destination destination-ip-address",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\104_ port-channel bfd destination destination-ip-addre.md",
+      "page_range": "26-27",
+      "element_count": 17,
+      "char_count": 1283
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\105_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "27-27",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Guidelines and Limitations",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\106_Guidelines and Limitations.md",
+      "page_range": "27-27",
+      "element_count": 15,
+      "char_count": 1585
+    },
+    {
+      "title": "BFD Support on Nexus Switches",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\107_BFD Support on Nexus Switches.md",
+      "page_range": "27-28",
+      "element_count": 10,
+      "char_count": 509
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\108_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "28-28",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Default Settings",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\109_Default Settings.md",
+      "page_range": "28-28",
+      "element_count": 2,
+      "char_count": 304
+    },
+    {
+      "title": "Default Settings",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\110_Default Settings.md",
+      "page_range": "28-28",
+      "element_count": 9,
+      "char_count": 582
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\111_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "29-29",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "Configuring BFD",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\112_Configuring BFD.md",
+      "page_range": "29-29",
+      "element_count": 1,
+      "char_count": 18
+    },
+    {
+      "title": "Configuring BFD",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\113_Configuring BFD.md",
+      "page_range": "29-29",
+      "element_count": 1,
+      "char_count": 18
+    },
+    {
+      "title": "Best Practices for BFD configuration hierarchy and inheritance",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\114_Best Practices for BFD configuration hierarchy and.md",
+      "page_range": "29-29",
+      "element_count": 4,
+      "char_count": 214
+    },
+    {
+      "title": "Interface-level configuration versus global configuration",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\115_Interface-level configuration versus global config.md",
+      "page_range": "29-29",
+      "element_count": 5,
+      "char_count": 206
+    },
+    {
+      "title": "Inheritance for member ports and port channels",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\116_Inheritance for member ports and port channels.md",
+      "page_range": "29-29",
+      "element_count": 2,
+      "char_count": 138
+    },
+    {
+      "title": "Task Flow for Configuring BFD",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\117_Task Flow for Configuring BFD.md",
+      "page_range": "29-29",
+      "element_count": 4,
+      "char_count": 202
+    },
+    {
+      "title": "Enable BFD feature",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\118_Enable BFD feature.md",
+      "page_range": "29-29",
+      "element_count": 2,
+      "char_count": 92
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\119_Procedure.md",
+      "page_range": "29-29",
+      "element_count": 2,
+      "char_count": 81
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\120_Example.md",
+      "page_range": "29-29",
+      "element_count": 3,
+      "char_count": 123
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\121_Example.md",
+      "page_range": "29-30",
+      "element_count": 9,
+      "char_count": 241
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\122_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "30-30",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Disable BFD",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\123_Disable BFD.md",
+      "page_range": "30-30",
+      "element_count": 1,
+      "char_count": 14
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\124_Example.md",
+      "page_range": "30-30",
+      "element_count": 3,
+      "char_count": 162
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\125_Example.md",
+      "page_range": "30-30",
+      "element_count": 2,
+      "char_count": 80
+    },
+    {
+      "title": "Disable BFD",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\126_Disable BFD.md",
+      "page_range": "30-30",
+      "element_count": 1,
+      "char_count": 14
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\127_Procedure.md",
+      "page_range": "30-30",
+      "element_count": 3,
+      "char_count": 279
+    },
+    {
+      "title": "Configure global BFD parameters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\128_Configure global BFD parameters.md",
+      "page_range": "30-30",
+      "element_count": 6,
+      "char_count": 581
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\129_Before you begin.md",
+      "page_range": "30-30",
+      "element_count": 2,
+      "char_count": 93
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\130_Procedure.md",
+      "page_range": "30-30",
+      "element_count": 2,
+      "char_count": 78
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\131_Example.md",
+      "page_range": "30-30",
+      "element_count": 6,
+      "char_count": 162
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\132_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "31-31",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "Configure global BFD parameters",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\133_Configure global BFD parameters.md",
+      "page_range": "31-31",
+      "element_count": 2,
+      "char_count": 169
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\134_Example.md",
+      "page_range": "31-31",
+      "element_count": 1,
+      "char_count": 11
+    },
+    {
+      "title": "switch(config)# bfd interval 50 min_rx 50 multiplier 3",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\135_switchconfig bfd interval 50 min_rx 50 multiplier .md",
+      "page_range": "31-31",
+      "element_count": 5,
+      "char_count": 426
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\136_Example.md",
+      "page_range": "31-31",
+      "element_count": 6,
+      "char_count": 645
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\137_Example.md",
+      "page_range": "31-31",
+      "element_count": 1,
+      "char_count": 11
+    },
+    {
+      "title": "switch(config)# bfd echo-interface loopback 1 3",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\138_switchconfig bfd echo-interface loopback 1 3.md",
+      "page_range": "31-31",
+      "element_count": 3,
+      "char_count": 312
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\139_Example.md",
+      "page_range": "31-31",
+      "element_count": 4,
+      "char_count": 168
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\140_Example.md",
+      "page_range": "31-32",
+      "element_count": 9,
+      "char_count": 295
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\141_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "32-32",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configure BFD on an Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\142_Configure BFD on an Interface.md",
+      "page_range": "32-32",
+      "element_count": 1,
+      "char_count": 32
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\143_Example.md",
+      "page_range": "32-32",
+      "element_count": 1,
+      "char_count": 10
+    },
+    {
+      "title": "Configure BFD on an Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\144_Configure BFD on an Interface.md",
+      "page_range": "32-32",
+      "element_count": 3,
+      "char_count": 296
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\145_Before you begin.md",
+      "page_range": "32-32",
+      "element_count": 3,
+      "char_count": 281
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\146_Procedure.md",
+      "page_range": "32-32",
+      "element_count": 1,
+      "char_count": 12
+    },
+    {
+      "title": "Step 1 configure terminal",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\147_Step 1 configure terminal.md",
+      "page_range": "32-32",
+      "element_count": 1,
+      "char_count": 28
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\148_Example.md",
+      "page_range": "32-32",
+      "element_count": 3,
+      "char_count": 100
+    },
+    {
+      "title": "Step 2 interface int-if",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\149_Step 2 interface int-if.md",
+      "page_range": "32-32",
+      "element_count": 1,
+      "char_count": 26
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\150_Example.md",
+      "page_range": "32-32",
+      "element_count": 3,
+      "char_count": 180
+    },
+    {
+      "title": "Step 3 bfd interval mintx min_rx msec multiplier value",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\151_Step 3 bfd interval mintx min_rx msec multiplier v.md",
+      "page_range": "32-32",
+      "element_count": 1,
+      "char_count": 57
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\152_Example.md",
+      "page_range": "32-32",
+      "element_count": 5,
+      "char_count": 805
+    },
+    {
+      "title": "Step 4 bfd authentication keyed-sha1 keyid id key ascii_key",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\153_Step 4 bfd authentication keyed-sha1 keyid id key .md",
+      "page_range": "32-32",
+      "element_count": 6,
+      "char_count": 157
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\154_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "33-33",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "Configuring BFD on a Port Channel",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\155_Configuring BFD on a Port Channel.md",
+      "page_range": "33-33",
+      "element_count": 1,
+      "char_count": 36
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\156_Example.md",
+      "page_range": "33-33",
+      "element_count": 5,
+      "char_count": 636
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\157_Example.md",
+      "page_range": "33-33",
+      "element_count": 2,
+      "char_count": 75
+    },
+    {
+      "title": "Step 6 show running-config bfd",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\158_Step 6 show running-config bfd.md",
+      "page_range": "33-33",
+      "element_count": 1,
+      "char_count": 33
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\159_Example.md",
+      "page_range": "33-33",
+      "element_count": 3,
+      "char_count": 124
+    },
+    {
+      "title": "Step 7 copy running-config startup-config",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\160_Step 7 copy running-config startup-config.md",
+      "page_range": "33-33",
+      "element_count": 1,
+      "char_count": 44
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\161_Example.md",
+      "page_range": "33-33",
+      "element_count": 3,
+      "char_count": 127
+    },
+    {
+      "title": "Example",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\162_Example.md",
+      "page_range": "33-33",
+      "element_count": 1,
+      "char_count": 10
+    },
+    {
+      "title": "What to do next",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\163_What to do next.md",
+      "page_range": "33-33",
+      "element_count": 2,
+      "char_count": 21
+    },
+    {
+      "title": "Configuring BFD on a Port Channel",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\164_Configuring BFD on a Port Channel.md",
+      "page_range": "33-33",
+      "element_count": 3,
+      "char_count": 692
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\165_Before you begin.md",
+      "page_range": "33-34",
+      "element_count": 8,
+      "char_count": 188
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\166_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "34-34",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring BFD on a Port Channel",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\167_Configuring BFD on a Port Channel.md",
+      "page_range": "34-34",
+      "element_count": 3,
+      "char_count": 265
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\168_SUMMARY STEPS.md",
+      "page_range": "34-34",
+      "element_count": 10,
+      "char_count": 268
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\169_DETAILED STEPS.md",
+      "page_range": "34-34",
+      "element_count": 8,
+      "char_count": 1641
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\170_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "35-35",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "Configure the BFD Echo function (task)",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\171_Configure the BFD Echo function task.md",
+      "page_range": "35-35",
+      "element_count": 4,
+      "char_count": 522
+    },
+    {
+      "title": "Configure the BFD Echo function (task)",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\172_Configure the BFD Echo function task.md",
+      "page_range": "35-35",
+      "element_count": 2,
+      "char_count": 451
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\173_Before you begin.md",
+      "page_range": "35-35",
+      "element_count": 4,
+      "char_count": 331
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\174_Procedure.md",
+      "page_range": "35-35",
+      "element_count": 2,
+      "char_count": 82
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\175_Example.md",
+      "page_range": "35-35",
+      "element_count": 4,
+      "char_count": 190
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\176_Example.md",
+      "page_range": "35-36",
+      "element_count": 11,
+      "char_count": 515
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\177_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "36-36",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring Per-Member Link BFD Sessions",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\178_Configuring Per-Member Link BFD Sessions.md",
+      "page_range": "36-36",
+      "element_count": 1,
+      "char_count": 43
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\179_Example.md",
+      "page_range": "36-36",
+      "element_count": 4,
+      "char_count": 206
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\180_Example.md",
+      "page_range": "36-36",
+      "element_count": 4,
+      "char_count": 184
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\181_Example.md",
+      "page_range": "36-36",
+      "element_count": 3,
+      "char_count": 171
+    },
+    {
+      "title": "Example:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\182_Example.md",
+      "page_range": "36-36",
+      "element_count": 2,
+      "char_count": 83
+    },
+    {
+      "title": "Configuring Per-Member Link BFD Sessions",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\183_Configuring Per-Member Link BFD Sessions.md",
+      "page_range": "36-36",
+      "element_count": 2,
+      "char_count": 167
+    },
+    {
+      "title": "BFD Enhancement to Address Per-link Efficiency",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\184_BFD Enhancement to Address Per-link Efficiency.md",
+      "page_range": "36-36",
+      "element_count": 5,
+      "char_count": 1142
+    },
+    {
+      "title": "Limitations of the IETF Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\185_Limitations of the IETF Bidirectional Forwarding D.md",
+      "page_range": "36-37",
+      "element_count": 9,
+      "char_count": 261
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\186_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "37-37",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Limitations of the IETF Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\187_Limitations of the IETF Bidirectional Forwarding D.md",
+      "page_range": "37-37",
+      "element_count": 18,
+      "char_count": 1660
+    },
+    {
+      "title": "Guidelines for Migration/Configuration of IETF Per-Member Sessions:",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\188_Guidelines for MigrationConfiguration of IETF Per-.md",
+      "page_range": "37-38",
+      "element_count": 10,
+      "char_count": 888
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\189_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "38-38",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring Port Channel Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\190_Configuring Port Channel Interface.md",
+      "page_range": "38-38",
+      "element_count": 9,
+      "char_count": 1561
+    },
+    {
+      "title": "Configuring Port Channel Interface",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\191_Configuring Port Channel Interface.md",
+      "page_range": "38-38",
+      "element_count": 1,
+      "char_count": 37
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\192_Before you begin.md",
+      "page_range": "38-38",
+      "element_count": 2,
+      "char_count": 60
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\193_SUMMARY STEPS.md",
+      "page_range": "38-38",
+      "element_count": 4,
+      "char_count": 126
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\194_DETAILED STEPS.md",
+      "page_range": "38-38",
+      "element_count": 1,
+      "char_count": 17
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\195_Procedure.md",
+      "page_range": "38-38",
+      "element_count": 1,
+      "char_count": 12
+    },
+    {
+      "title": "Step 1 switch(config)# interface port-channel port-number",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\196_Step 1 switchconfig interface port-channel port-nu.md",
+      "page_range": "38-38",
+      "element_count": 9,
+      "char_count": 281
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\197_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "39-39",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "(Optional) Configuring BFD Start Timer",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\198_Optional Configuring BFD Start Timer.md",
+      "page_range": "39-39",
+      "element_count": 1,
+      "char_count": 41
+    },
+    {
+      "title": "What to do next",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\199_What to do next.md",
+      "page_range": "39-39",
+      "element_count": 3,
+      "char_count": 83
+    },
+    {
+      "title": "(Optional) Configuring BFD Start Timer",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\200_Optional Configuring BFD Start Timer.md",
+      "page_range": "39-39",
+      "element_count": 2,
+      "char_count": 105
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\201_SUMMARY STEPS.md",
+      "page_range": "39-39",
+      "element_count": 2,
+      "char_count": 64
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\202_DETAILED STEPS.md",
+      "page_range": "39-39",
+      "element_count": 1,
+      "char_count": 17
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\203_Procedure.md",
+      "page_range": "39-39",
+      "element_count": 1,
+      "char_count": 12
+    },
+    {
+      "title": "switch(config-if)# port-channel bfd start 60",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\204_switchconfig-if port-channel bfd start 60.md",
+      "page_range": "39-39",
+      "element_count": 2,
+      "char_count": 99
+    },
+    {
+      "title": "Note",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\205_Note.md",
+      "page_range": "39-39",
+      "element_count": 2,
+      "char_count": 416
+    },
+    {
+      "title": "What to do next",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\206_What to do next.md",
+      "page_range": "39-39",
+      "element_count": 3,
+      "char_count": 94
+    },
+    {
+      "title": "Enabling IETF Per-link BFD",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\207_Enabling IETF Per-link BFD.md",
+      "page_range": "39-39",
+      "element_count": 1,
+      "char_count": 29
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\208_SUMMARY STEPS.md",
+      "page_range": "39-39",
+      "element_count": 3,
+      "char_count": 92
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\209_DETAILED STEPS.md",
+      "page_range": "39-39",
+      "element_count": 1,
+      "char_count": 17
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\210_Procedure.md",
+      "page_range": "39-40",
+      "element_count": 8,
+      "char_count": 181
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\211_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "40-40",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring BFD Destination IP Address",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\212_Configuring BFD Destination IP Address.md",
+      "page_range": "40-40",
+      "element_count": 2,
+      "char_count": 86
+    },
+    {
+      "title": "What to do next",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\213_What to do next.md",
+      "page_range": "40-40",
+      "element_count": 3,
+      "char_count": 110
+    },
+    {
+      "title": "Configuring BFD Destination IP Address",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\214_Configuring BFD Destination IP Address.md",
+      "page_range": "40-40",
+      "element_count": 2,
+      "char_count": 116
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\215_SUMMARY STEPS.md",
+      "page_range": "40-40",
+      "element_count": 3,
+      "char_count": 96
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\216_DETAILED STEPS.md",
+      "page_range": "40-40",
+      "element_count": 1,
+      "char_count": 17
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\217_Procedure.md",
+      "page_range": "40-40",
+      "element_count": 1,
+      "char_count": 12
+    },
+    {
+      "title": "switch(config-if)# port-channel bfd destinationip-address",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\218_switchconfig-if port-channel bfd destinationip-add.md",
+      "page_range": "40-40",
+      "element_count": 2,
+      "char_count": 141
+    },
+    {
+      "title": "What to do next",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\219_What to do next.md",
+      "page_range": "40-40",
+      "element_count": 2,
+      "char_count": 66
+    },
+    {
+      "title": "Verifying Micro BFD Session Configurations",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\220_Verifying Micro BFD Session Configurations.md",
+      "page_range": "40-40",
+      "element_count": 2,
+      "char_count": 121
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\221_SUMMARY STEPS.md",
+      "page_range": "40-40",
+      "element_count": 13,
+      "char_count": 406
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\222_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "41-41",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "Examples: Configuring Micro BFD Sessions",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\223_Examples Configuring Micro BFD Sessions.md",
+      "page_range": "41-41",
+      "element_count": 1,
+      "char_count": 43
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\224_DETAILED STEPS.md",
+      "page_range": "41-41",
+      "element_count": 1,
+      "char_count": 17
+    },
+    {
+      "title": "Procedure",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\225_Procedure.md",
+      "page_range": "41-41",
+      "element_count": 5,
+      "char_count": 227
+    },
+    {
+      "title": "Step 3 switch# show bfd neighbors details",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\226_Step 3 switch show bfd neighbors details.md",
+      "page_range": "41-41",
+      "element_count": 2,
+      "char_count": 145
+    },
+    {
+      "title": "Step 4 switch# show tech-support bfd",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\227_Step 4 switch show tech-support bfd.md",
+      "page_range": "41-41",
+      "element_count": 2,
+      "char_count": 92
+    },
+    {
+      "title": "Step 5 switch# show tech-support lacp all",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\228_Step 5 switch show tech-support lacp all.md",
+      "page_range": "41-41",
+      "element_count": 2,
+      "char_count": 156
+    },
+    {
+      "title": "Step 6 switch# show running-config interface port-channel port-channel-number",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\229_Step 6 switch show running-config interface port-c.md",
+      "page_range": "41-41",
+      "element_count": 2,
+      "char_count": 159
+    },
+    {
+      "title": "Examples: Configuring Micro BFD Sessions",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\230_Examples Configuring Micro BFD Sessions.md",
+      "page_range": "41-41",
+      "element_count": 2,
+      "char_count": 107
+    },
+    {
+      "title": "Configuring Micro BFD Sessions",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\231_Configuring Micro BFD Sessions.md",
+      "page_range": "41-42",
+      "element_count": 12,
+      "char_count": 478
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\232_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "42-42",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Examples: Configuring Micro BFD Sessions",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\233_Examples Configuring Micro BFD Sessions.md",
+      "page_range": "42-42",
+      "element_count": 5,
+      "char_count": 400
+    },
+    {
+      "title": "Verifying Micro BFD Sessions Configuration",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\234_Verifying Micro BFD Sessions Configuration.md",
+      "page_range": "42-43",
+      "element_count": 13,
+      "char_count": 1655
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\235_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "43-43",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Examples: Configuring Micro BFD Sessions",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\236_Examples Configuring Micro BFD Sessions.md",
+      "page_range": "43-44",
+      "element_count": 38,
+      "char_count": 2610
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\237_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "44-44",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring BFD Support for Routing Protocols",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\238_Configuring BFD Support for Routing Protocols.md",
+      "page_range": "44-44",
+      "element_count": 2,
+      "char_count": 585
+    },
+    {
+      "title": "Configuring BFD Support for Routing Protocols",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\239_Configuring BFD Support for Routing Protocols.md",
+      "page_range": "44-44",
+      "element_count": 1,
+      "char_count": 48
+    },
+    {
+      "title": "Configuring BFD on BGP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\240_Configuring BFD on BGP.md",
+      "page_range": "44-44",
+      "element_count": 2,
+      "char_count": 87
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\241_Before you begin.md",
+      "page_range": "44-44",
+      "element_count": 4,
+      "char_count": 330
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\242_SUMMARY STEPS.md",
+      "page_range": "44-44",
+      "element_count": 9,
+      "char_count": 252
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\243_DETAILED STEPS.md",
+      "page_range": "44-44",
+      "element_count": 8,
+      "char_count": 235
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\244_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "45-45",
+      "element_count": 2,
+      "char_count": 54
+    },
+    {
+      "title": "Configuring BFD on EIGRP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\245_Configuring BFD on EIGRP.md",
+      "page_range": "45-45",
+      "element_count": 2,
+      "char_count": 2032
+    },
+    {
+      "title": "Configuring BFD on EIGRP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\246_Configuring BFD on EIGRP.md",
+      "page_range": "45-45",
+      "element_count": 2,
+      "char_count": 110
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\247_Before you begin.md",
+      "page_range": "45-46",
+      "element_count": 10,
+      "char_count": 429
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\248_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "46-46",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring BFD on EIGRP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\249_Configuring BFD on EIGRP.md",
+      "page_range": "46-46",
+      "element_count": 1,
+      "char_count": 27
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\250_SUMMARY STEPS.md",
+      "page_range": "46-46",
+      "element_count": 10,
+      "char_count": 233
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\251_DETAILED STEPS.md",
+      "page_range": "46-46",
+      "element_count": 8,
+      "char_count": 1491
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\252_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "47-47",
+      "element_count": 2,
+      "char_count": 52
+    },
+    {
+      "title": "Configuring BFD on OSPF",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\253_Configuring BFD on OSPF.md",
+      "page_range": "47-47",
+      "element_count": 4,
+      "char_count": 235
+    },
+    {
+      "title": "Configuring BFD on OSPF",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\254_Configuring BFD on OSPF.md",
+      "page_range": "47-47",
+      "element_count": 2,
+      "char_count": 83
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\255_Before you begin.md",
+      "page_range": "47-47",
+      "element_count": 4,
+      "char_count": 331
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\256_SUMMARY STEPS.md",
+      "page_range": "47-47",
+      "element_count": 10,
+      "char_count": 226
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\257_DETAILED STEPS.md",
+      "page_range": "47-48",
+      "element_count": 9,
+      "char_count": 694
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\258_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "48-48",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring BFD on IS-IS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\259_Configuring BFD on IS-IS.md",
+      "page_range": "48-48",
+      "element_count": 2,
+      "char_count": 882
+    },
+    {
+      "title": "Example Configurations for BFD on OSPF",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\260_Example Configurations for BFD on OSPF.md",
+      "page_range": "48-48",
+      "element_count": 3,
+      "char_count": 187
+    },
+    {
+      "title": "Configuring BFD on IS-IS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\261_Configuring BFD on IS-IS.md",
+      "page_range": "48-48",
+      "element_count": 2,
+      "char_count": 119
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\262_Before you begin.md",
+      "page_range": "48-48",
+      "element_count": 4,
+      "char_count": 332
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\263_SUMMARY STEPS.md",
+      "page_range": "48-48",
+      "element_count": 8,
+      "char_count": 180
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\264_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "49-49",
+      "element_count": 2,
+      "char_count": 52
+    },
+    {
+      "title": "Configuring BFD on IS-IS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\265_Configuring BFD on IS-IS.md",
+      "page_range": "49-49",
+      "element_count": 5,
+      "char_count": 144
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\266_DETAILED STEPS.md",
+      "page_range": "49-50",
+      "element_count": 9,
+      "char_count": 1449
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\267_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "50-50",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring BFD on HSRP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\268_Configuring BFD on HSRP.md",
+      "page_range": "50-50",
+      "element_count": 1,
+      "char_count": 26
+    },
+    {
+      "title": "Example Configurations for BFD on IS-IS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\269_Example Configurations for BFD on IS-IS.md",
+      "page_range": "50-50",
+      "element_count": 4,
+      "char_count": 211
+    },
+    {
+      "title": "Configuring BFD on HSRP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\270_Configuring BFD on HSRP.md",
+      "page_range": "50-50",
+      "element_count": 3,
+      "char_count": 428
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\271_Before you begin.md",
+      "page_range": "50-50",
+      "element_count": 4,
+      "char_count": 331
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\272_SUMMARY STEPS.md",
+      "page_range": "50-50",
+      "element_count": 9,
+      "char_count": 173
+    },
+    {
+      "title": "DETAILED STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\273_DETAILED STEPS.md",
+      "page_range": "50-50",
+      "element_count": 7,
+      "char_count": 241
+    },
+    {
+      "title": "Configuring Bidirectional Forwarding Detection",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\274_Configuring Bidirectional Forwarding Detection.md",
+      "page_range": "51-51",
+      "element_count": 1,
+      "char_count": 49
+    },
+    {
+      "title": "Configuring BFD on VRRP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\275_Configuring BFD on VRRP.md",
+      "page_range": "51-51",
+      "element_count": 2,
+      "char_count": 936
+    },
+    {
+      "title": "Configuring BFD on VRRP",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\276_Configuring BFD on VRRP.md",
+      "page_range": "51-51",
+      "element_count": 3,
+      "char_count": 435
+    },
+    {
+      "title": "Before you begin",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\277_Before you begin.md",
+      "page_range": "51-51",
+      "element_count": 4,
+      "char_count": 331
+    },
+    {
+      "title": "SUMMARY STEPS",
+      "filepath": "processed\\Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200\\chapters\\278_SUMMARY STEPS.md",
+      "page_range": "51-51",
+      "element_count": 11,
+      "char_count": 193
+    }
+  ],
+  "statistics": {
+    "total_elements": 1254,
+    "total_chapters": 278
+  }
+}
