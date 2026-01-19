@@ -22,5 +22,5 @@ openai
 pytest
 
 # Translation
-googletrans==4.0.0rc1  # Google Translate (무료)
+deep-translator>=1.11.4  # Google Translate (무료, 안정적)
 # deepl  # DeepL API (선택사항, 고품질)

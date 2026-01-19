@@ -79,7 +79,7 @@ class TestTranslation:
     def test_llm_translator(self):
         """LLM 번역 테스트"""
         try:
-            llm_service = OllamaService(model_name="llama3.1:8b")
+            llm_service = OllamaService(model_name="gemma3:12b")
             translator = LLMTranslator(llm_service)
 
             text = "스위치 포트를 설정하세요"

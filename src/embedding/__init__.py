@@ -1,0 +1,4 @@
+# embedding package
+from .embedding_service import CiscoEmbeddingService, HybridEmbeddingService
+from .model_selection import select_document_model, select_query_model, select_unified_model
+from .dual_embedding_service import DualEmbeddingService, UnifiedEmbeddingService, create_embedding_service

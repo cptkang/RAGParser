@@ -6,7 +6,14 @@
       "Bash(python -c \"import os; from pathlib import Path; exec\\(open\\(''src/preprocessing/pipeline.py''\\).read\\(\\).split\\(''from ..parser''\\)[0]\\); print\\(''Poppler PATH test:'', ''poppler-24.08.0'' in os.environ[''PATH'']\\)\")",
       "Bash(.venv/Scripts/python.exe -m pytest tests/test_chroma_rag_complete.py -v --tb=short)",
       "Bash(.venv/Scripts/python.exe -m pytest tests/test_chroma_rag_complete.py -v --tb=line)",
-      "Bash(.venv/Scripts/python.exe:*)"
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c:*)",
+      "Bash(pip show:*)",
+      "Bash(Get-ChildItem -Path \"G:\\\\RAGParser\" -Include \"__pycache__\" -Recurse -Directory)",
+      "Bash(\"G:/RAGParser/.venv/Scripts/pip.exe\" install chromadb --upgrade)",
+      "Bash(\"G:/RAGParser/.venv/Scripts/pip.exe\" install deep-translator)",
+      "Bash(\"G:/RAGParser/.venv/Scripts/python.exe\":*)"
     ]
   }
 }

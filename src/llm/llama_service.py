@@ -34,8 +34,7 @@ class OllamaService(BaseLlamaService):
     """
     Ollama를 통한 Llama 모델 서비스
     
-    설치: ollama pull llama3.1:8b
-    """
+    설치: ollama pull gemma3:12b    """
     
     def __init__(
         self,

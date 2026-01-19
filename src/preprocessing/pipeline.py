@@ -1,6 +1,7 @@
 # src/preprocessing/pipeline.py
 
 import os
+import sys
 from pathlib import Path
 from typing import List, Dict, Optional
 import json
@@ -19,8 +20,13 @@ def setup_poppler():
 
 setup_poppler()
 
-from ..parser.layout_parser import CiscoManualParser, DocumentElement
-from ..parser.markdown_converter import MarkdownConverter, ChapterSplitter, Chapter
+# Add project root to path for direct execution
+_project_root = Path(__file__).resolve().parent.parent.parent
+if str(_project_root) not in sys.path:
+    sys.path.insert(0, str(_project_root))
+
+from src.parser.layout_parser import CiscoManualParser, DocumentElement
+from src.parser.markdown_converter import MarkdownConverter, ChapterSplitter, Chapter
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -140,7 +146,7 @@ if __name__ == "__main__":
     
     # 시스코 매뉴얼 처리
     result = pipeline.process(
-        pdf_path="./manuals/cisco_catalyst_9000_config.pdf",
+        pdf_path="./manuals/Cisco Nexus 9000 Series NX-OS Interfaces Configuration Guid_10.5(x)_150_200.pdf",
         split_level=2  # 섹션 레벨에서 분할
     )
     
