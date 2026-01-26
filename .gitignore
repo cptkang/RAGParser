@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# virtual environments
+ENV/
+venv/
+.venv/
+
+
 # Distribution / packaging
 .Python
 build/
@@ -1825,3 +1831,16 @@ vectordb/1090cab7-ec09-4f2b-8479-a90e1770c596/header.bin
 vectordb/1090cab7-ec09-4f2b-8479-a90e1770c596/length.bin
 vectordb/1090cab7-ec09-4f2b-8479-a90e1770c596/link_lists.bin
 vectordb/chroma.sqlite3
+*.pyc
+src/embedding/__pycache__/embedding_service.cpython-311.pyc
+src/llm/__pycache__/llama_service.cpython-311.pyc
+src/parser/__pycache__/layout_parser.cpython-311.pyc
+src/parser/__pycache__/markdown_converter.cpython-311.pyc
+src/preprocessing/__pycache__/pipeline.cpython-311.pyc
+src/rag/__pycache__/advanced_rag.cpython-311.pyc
+src/rag/__pycache__/rag_chain.cpython-311.pyc
+src/rag/__pycache__/rag_factory.cpython-311.pyc
+src/splitter/__pycache__/cisco_splitter.cpython-311.pyc
+tests/__pycache__/test_chroma_rag_complete.cpython-311-pytest-9.0.2.pyc
+tests/__pycache__/test_chroma_rag_complete.cpython-311.pyc
+tests/__pycache__/test_rag_complete.cpython-311-pytest-9.0.2.pyc
