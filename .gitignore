@@ -11,6 +11,9 @@ ENV/
 venv/
 .venv/
 
+# document files
+processed/  
+
 
 # Distribution / packaging
 .Python

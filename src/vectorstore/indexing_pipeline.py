@@ -65,7 +65,7 @@ class IndexingPipeline:
             chunk_size=chunk_size,
             chunk_overlap=chunk_overlap
         )
-        self.embedding_service = CiscoEmbeddingService(model_name=embedding_model)
+        self.embedding_service = CiscoEmbeddingService(model_name=embedding_model, local_files_only=True)
         self.vector_store = CiscoVectorStore(
             persist_directory=str(self.vectordb_dir),
             embedding_service=self.embedding_service

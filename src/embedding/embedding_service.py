@@ -8,6 +8,8 @@ import torch
 from tqdm import tqdm
 import logging
 
+from .offline_utils import auto_detect_local_files_only, get_offline_strategy_message
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -31,7 +33,9 @@ class CiscoEmbeddingService:
         model_name: str = "BAAI/bge-m3",
         device: Optional[str] = None,
         use_prefix: bool = True,
-        batch_size: int = 32
+        batch_size: int = 32,
+        local_files_only: Optional[bool] = None,
+        trust_remote_code: bool = False
     ):
         """
         Args:
@@ -39,26 +43,50 @@ class CiscoEmbeddingService:
             device: cuda/cpu (None이면 자동 선택)
             use_prefix: E5 스타일 프리픽스 사용 여부
             batch_size: 배치 크기
+            local_files_only: 오프라인 모드 (None이면 자동 감지, True/False로 명시 가능)
+            trust_remote_code: 원격 코드 실행 허용 여부
         """
+        import os
+
         self.model_name = model_name
         self.use_prefix = use_prefix and 'e5' in model_name.lower()
         self.batch_size = batch_size
-        
+
+        # 오프라인 모드 자동 감지
+        self.local_files_only = auto_detect_local_files_only(local_files_only)
+
+        # 오프라인 모드일 경우 환경 변수 설정 (HuggingFace Hub 접근 차단)
+        if self.local_files_only:
+            os.environ['HF_HUB_OFFLINE'] = '1'
+            os.environ['TRANSFORMERS_OFFLINE'] = '1'
+            logger.info("환경 변수 설정: HF_HUB_OFFLINE=1, TRANSFORMERS_OFFLINE=1")
+
         # 디바이스 설정
         if device is None:
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
         else:
             self.device = device
-            
+
         logger.info(f"Loading embedding model: {model_name}")
         logger.info(f"Device: {self.device}")
-        
+        logger.info(f"Offline mode: {self.local_files_only}")
+
         # 모델 로드
-        self.model = SentenceTransformer(
-            model_name,
-            device=self.device
-        )
-        
+        try:
+            self.model = SentenceTransformer(
+                model_name,
+                device=self.device,
+                local_files_only=self.local_files_only,
+                trust_remote_code=trust_remote_code
+            )
+        except Exception as e:
+            if self.local_files_only:
+                logger.error(
+                    f"오프라인 모드에서 모델을 로드할 수 없습니다.\n"
+                    f"{get_offline_strategy_message()}"
+                )
+            raise e
+
         self.dimension = self.model.get_sentence_embedding_dimension()
         logger.info(f"Embedding dimension: {self.dimension}")
     
@@ -201,13 +229,14 @@ class CiscoEmbeddingService:
 class HybridEmbeddingService(CiscoEmbeddingService):
     """
     하이브리드 검색을 위한 확장 서비스
-    
+
     BGE-M3의 Dense + Sparse 임베딩 활용
     """
-    
+
     def __init__(self, **kwargs):
+        # local_files_only와 trust_remote_code를 부모 클래스로 전달
         super().__init__(**kwargs)
-        
+
         # BGE-M3 특화 설정
         if 'bge-m3' in self.model_name.lower():
             self.supports_sparse = True

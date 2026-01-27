@@ -90,9 +90,38 @@ response = rag.query("VLAN을 설정하는 방법을 알려주세요")
 print(response.answer)  # 한국어 답변
 ```
 
+### 3. 오프라인 환경에서 사용 ⭐ 자동 감지
+
+```python
+from src.embedding.embedding_service import CiscoEmbeddingService
+
+# 먼저 온라인 환경에서 모델 다운로드
+# python scripts/download_models.py
+
+# 오프라인 환경에서는 자동으로 감지!
+# local_files_only를 지정하지 않아도 됨
+service = CiscoEmbeddingService(
+    model_name="BAAI/bge-m3"
+    # 네트워크 연결 상태에 따라 자동으로 오프라인 모드 활성화
+)
+
+# 또는 명시적으로 오프라인 모드 지정
+service = CiscoEmbeddingService(
+    model_name="BAAI/bge-m3",
+    local_files_only=True  # 명시적 오프라인 모드
+)
+
+# 또는 로컬 경로 직접 지정
+service = CiscoEmbeddingService(
+    model_name="./models/BAAI_bge-m3"
+)
+```
+
 ## 문서
 
 - **[임베딩 전략 가이드](EMBEDDING_STRATEGY_GUIDE.md)** ⭐ - 영문 문서 최적 임베딩 전략
+- **[오프라인 사용 가이드](docs/OFFLINE_USAGE.md)** ⭐ - 네트워크 없이 모델 사용하기
+- **[오프라인 자동 감지](docs/OFFLINE_AUTO_DETECT.md)** 🆕 - 네트워크 상태 자동 감지 기능
 - [다국어 RAG 가이드](MULTILINGUAL_RAG_GUIDE.md) - 번역 기능 상세 설명
 - [설정 가이드](SETUP_COMPLETE.md) - 전체 설정 가이드
 - [임베딩 모델 선정](src/embedding/model_selection.py) - 모델 선택 가이드

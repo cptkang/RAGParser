@@ -20,6 +20,7 @@ from .model_selection import (
     EmbeddingModelInfo,
     ENGLISH_DOCUMENT_MODELS
 )
+from .offline_utils import auto_detect_local_files_only, get_offline_strategy_message
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -39,14 +40,20 @@ class DualEmbeddingService:
         self,
         document_model: Optional[str] = None,
         device: Optional[str] = None,
-        batch_size: int = 32
+        batch_size: int = 32,
+        local_files_only: Optional[bool] = None,
+        trust_remote_code: bool = False
     ):
         """
         Args:
             document_model: 문서 임베딩 모델 (None이면 자동 선택)
             device: cuda/cpu
             batch_size: 배치 크기
+            local_files_only: 오프라인 모드 (None이면 자동 감지, True/False로 명시 가능)
+            trust_remote_code: 원격 코드 실행 허용 여부
         """
+        import os
+
         # 디바이스 설정
         if device is None:
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -54,6 +61,15 @@ class DualEmbeddingService:
             self.device = device
 
         self.batch_size = batch_size
+
+        # 오프라인 모드 자동 감지
+        self.local_files_only = auto_detect_local_files_only(local_files_only)
+
+        # 오프라인 모드일 경우 환경 변수 설정 (HuggingFace Hub 접근 차단)
+        if self.local_files_only:
+            os.environ['HF_HUB_OFFLINE'] = '1'
+            os.environ['TRANSFORMERS_OFFLINE'] = '1'
+            logger.info("환경 변수 설정: HF_HUB_OFFLINE=1, TRANSFORMERS_OFFLINE=1")
 
         # 문서 모델 선택
         if document_model is None:
@@ -66,11 +82,22 @@ class DualEmbeddingService:
         # 영문 문서용 모델 로드
         logger.info(f"Loading document model: {document_model}")
         logger.info(f"Device: {self.device}")
+        logger.info(f"Offline mode: {self.local_files_only}")
 
-        self.document_model = SentenceTransformer(
-            document_model,
-            device=self.device
-        )
+        try:
+            self.document_model = SentenceTransformer(
+                document_model,
+                device=self.device,
+                local_files_only=self.local_files_only,
+                trust_remote_code=trust_remote_code
+            )
+        except Exception as e:
+            if self.local_files_only:
+                logger.error(
+                    f"오프라인 모드에서 모델을 로드할 수 없습니다.\n"
+                    f"{get_offline_strategy_message()}"
+                )
+            raise e
 
         self.dimension = self.document_model.get_sentence_embedding_dimension()
         logger.info(f"Embedding dimension: {self.dimension}")
@@ -233,14 +260,20 @@ class UnifiedEmbeddingService:
         self,
         model_name: Optional[str] = None,
         device: Optional[str] = None,
-        batch_size: int = 32
+        batch_size: int = 32,
+        local_files_only: Optional[bool] = None,
+        trust_remote_code: bool = False
     ):
         """
         Args:
             model_name: 모델명 (None이면 자동 선택)
             device: cuda/cpu
             batch_size: 배치 크기
+            local_files_only: 오프라인 모드 (None이면 자동 감지, True/False로 명시 가능)
+            trust_remote_code: 원격 코드 실행 허용 여부
         """
+        import os
+
         # 디바이스 설정
         if device is None:
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -248,6 +281,15 @@ class UnifiedEmbeddingService:
             self.device = device
 
         self.batch_size = batch_size
+
+        # 오프라인 모드 자동 감지
+        self.local_files_only = auto_detect_local_files_only(local_files_only)
+
+        # 오프라인 모드일 경우 환경 변수 설정 (HuggingFace Hub 접근 차단)
+        if self.local_files_only:
+            os.environ['HF_HUB_OFFLINE'] = '1'
+            os.environ['TRANSFORMERS_OFFLINE'] = '1'
+            logger.info("환경 변수 설정: HF_HUB_OFFLINE=1, TRANSFORMERS_OFFLINE=1")
 
         # 모델 선택
         if model_name is None:
@@ -260,11 +302,22 @@ class UnifiedEmbeddingService:
         # 모델 로드
         logger.info(f"Loading unified model: {model_name}")
         logger.info(f"Device: {self.device}")
+        logger.info(f"Offline mode: {self.local_files_only}")
 
-        self.model = SentenceTransformer(
-            model_name,
-            device=self.device
-        )
+        try:
+            self.model = SentenceTransformer(
+                model_name,
+                device=self.device,
+                local_files_only=self.local_files_only,
+                trust_remote_code=trust_remote_code
+            )
+        except Exception as e:
+            if self.local_files_only:
+                logger.error(
+                    f"오프라인 모드에서 모델을 로드할 수 없습니다.\n"
+                    f"{get_offline_strategy_message()}"
+                )
+            raise e
 
         self.dimension = self.model.get_sentence_embedding_dimension()
         logger.info(f"Embedding dimension: {self.dimension}")
@@ -373,7 +426,9 @@ def create_embedding_service(
     strategy: str = "dual",
     document_model: Optional[str] = None,
     device: Optional[str] = None,
-    batch_size: int = 32
+    batch_size: int = 32,
+    local_files_only: Optional[bool] = None,
+    trust_remote_code: bool = False
 ) -> Union[DualEmbeddingService, UnifiedEmbeddingService]:
     """
     임베딩 서비스 팩토리
@@ -383,6 +438,8 @@ def create_embedding_service(
         document_model: 모델명
         device: 디바이스
         batch_size: 배치 크기
+        local_files_only: 오프라인 모드 (None이면 자동 감지)
+        trust_remote_code: 원격 코드 실행 허용
 
     Returns:
         임베딩 서비스 인스턴스
@@ -392,14 +449,18 @@ def create_embedding_service(
         return DualEmbeddingService(
             document_model=document_model,
             device=device,
-            batch_size=batch_size
+            batch_size=batch_size,
+            local_files_only=local_files_only,
+            trust_remote_code=trust_remote_code
         )
     elif strategy == "unified":
         logger.info("Creating unified embedding service (single model)")
         return UnifiedEmbeddingService(
             model_name=document_model,
             device=device,
-            batch_size=batch_size
+            batch_size=batch_size,
+            local_files_only=local_files_only,
+            trust_remote_code=trust_remote_code
         )
     else:
         raise ValueError(f"Unknown strategy: {strategy}")
